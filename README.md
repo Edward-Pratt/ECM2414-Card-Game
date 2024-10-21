@@ -1,1 +1,1 @@
-# ECM2414-Card-Game
+# ECM2414-cards.Card-Game

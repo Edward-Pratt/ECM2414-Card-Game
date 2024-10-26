@@ -37,7 +37,7 @@ public class FileEditor {
         }
     }
 
-    public String[] ReadFile(String fileName){
+    public String[] readFile(String fileName){
         try{
             File file = new File(fileName);
             BufferedReader reader = new BufferedReader(new FileReader(file));
@@ -52,5 +52,6 @@ public class FileEditor {
         } catch (IOException e) {
             System.out.println("An error occured.");
         }
+        return null;
     }
 }

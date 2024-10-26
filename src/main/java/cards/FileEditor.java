@@ -46,6 +46,7 @@ public class FileEditor {
             while ((line = reader.readLine()) != null) {
                 lines.add(line);
             }
+            reader.close();
             return lines.toArray(String[]::new);
         } catch (FileNotFoundException e) {
             System.out.println("File Not Found");

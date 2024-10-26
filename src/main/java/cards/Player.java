@@ -1,4 +1,4 @@
 package cards;
 
-public class Player {
+public class Player extends Thread {
 }

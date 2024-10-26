@@ -9,7 +9,19 @@ public class Player extends Thread {
         this.playerNumber = playerNumber;
     }
 
-    public void addCard (int location, Card newCard){
+    public synchronized void addCard (int location, Card newCard){
         this.cards[location] = newCard;
+    }
+
+    public synchronized Card getCard(int location){
+        return this.cards[location];
+    }
+
+    public synchronized Card[] getAllCards(){
+        return this.cards;
+    }
+
+    public int getPlayerNumber(){
+        return this.playerNumber;
     }
 }

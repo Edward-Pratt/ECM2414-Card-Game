@@ -1,0 +1,5 @@
+cards\Player.class
+cards\CardDeck.class
+cards\CardGame.class
+cards\FileEditor.class
+cards\Card.class

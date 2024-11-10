@@ -9,12 +9,12 @@ public class CardDeck {
     public CardDeck(int deckNumber){
         this.deckNumber = deckNumber;
     }
-    public synchronized Card getCard(){
+    public synchronized Card removeCard(){
         return this.deckOfCards.remove();
     }
 
-    public synchronized void setCard(Card c){
-        this.deckOfCards.add(c);
+    public synchronized void addCard(Card card){
+        this.deckOfCards.add(card);
     }
 
     public synchronized Queue<Card> getAllCards(){

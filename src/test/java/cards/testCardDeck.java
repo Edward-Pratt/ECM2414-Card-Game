@@ -33,21 +33,17 @@ public class testCardDeck {
     }
 
     @Test
-    @DisplayName("GET Card")
-    void getTestCard(){
-
-    }
-
-    @Test
-    @Display("SET Card")
+    @DisplayName("SET Card and GET ALL cards")
     void setTestCard(){
-        CardDeck cardDeck = new CardDeck(1);
-        Card[] testDeck = new Cards[4];
+        CardDeck cardDeck = new CardDeck(2);
+        Card[] expectedDeck = new Card[4];
         Card testCard;
-        for(int i = 0; i < 5; i++){
+        for(int i = 0; i < 4; i++){
             testCard = new Card((int) Math.round(Math.random()*100));
-            testDeck[i] = testCard;
+            expectedDeck[i] = testCard;
             cardDeck.addCard(testCard);
         }
+        Card[] actualDeck = cardDeck.getAllCards().toArray(new Card[0]);
+        Assertions.assertArrayEquals(expectedDeck, actualDeck);
     }
 }

@@ -33,20 +33,21 @@ public class CardGame extends Pack{
             decks[i] = new CardDeck(i);
             players.set(i, new Player(i));
         }
-        for(int i=0; i<4; i++){
-            for(int j=0; j<numPlayers; j++) {
+        for(int i=0; i<4; i++) {
+            for (int j = 0; j < numPlayers; j++) {
                 players.get(j).addCard(i, PackofCards.remove());
 
-            };
+            }
+        }
         while(!PackofCards.isEmpty()){
             for(int k=0; k<numPlayers; k++) {
                 decks[k].addCard(PackofCards.remove());
             }
         }
 
-    }
 
-}
+    }
     private static void playGame() {
+
     }
 }

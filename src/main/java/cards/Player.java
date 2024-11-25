@@ -43,23 +43,29 @@ public class Player extends Thread {
         return true;
     }
 
+    public synchronized void drawAndDiscard() {
+        Random random = new Random();
+        Card removedCard;
+        int randomNumber;
+        do {
+            randomNumber = random.nextInt(0, 3);
+            removedCard = this.cards[randomNumber];
+        } while (removedCard.getValue() == this.playerNumber);
+        rightDeck.addCard(this.cards[randomNumber]);
+        this.cards[randomNumber] = leftDeck.removeCard();
+
+
+    }
+
     public synchronized void takeTurn() {
         Random random = new Random();
         boolean isPreferredDenomination = true;
         Card possibleDiscard = null;
         int randomNumber = 0;
-        while (isPreferredDenomination) {
-            randomNumber = random.nextInt(0,3);
-            possibleDiscard = this.cards[randomNumber];
-            if (possibleDiscard.getValue() != this.playerNumber) {
-                isPreferredDenomination = false;
-            }
+        if(this.rightDeck.getAllCards().size()<5 && this.leftDeck.getAllCards().size()>3){
+            drawAndDiscard();
         }
 
-        if(!(leftDeck.getAllCards().isEmpty())){
-            this.cards[randomNumber] = leftDeck.removeCard();
-            rightDeck.addCard(possibleDiscard);
-        }
 
 
     }

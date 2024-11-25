@@ -30,20 +30,52 @@ public class CardDeck {
     }
 
     /**
-     * Synchronously removes the cards
-     * @return
+     * Removes the top card from the deck.
+     * <p>
+     * This method is synchronized to ensure thread-safe access to the buffer.
+     * The lock used for synchronization is the instance lock of this object
+     * (i.e., {@code synchronized(this)}).
+     * </p>
+     * 
+     * @return The deck of cards after removing the top card from the deck.
      */
     public synchronized Card removeCard(){
         return this.deckOfCards.remove();
     }
 
+    /**
+     * Adds a card to the bottom of the deck.
+     * <p>
+     * This method is synchronized to ensure thread-safe access to the buffer.
+     * The lock used for synchronization is the instance lock of this object
+     * (i.e., {@code synchronized(this)}).
+     * </p>
+     * 
+     * @param card The card that is being added to the bottom of the deck.
+     */
     public synchronized void addCard(Card card){
         this.deckOfCards.add(card);
     }
 
+    /**
+     * Retrieves all the cards from the deck
+     * <p>
+     * This method is synchronized to ensure thread-safe access to the buffer.
+     * The lock used for synchronization is the instance lock of this object
+     * (i.e., {@code synchronized(this)}).
+     * </p>
+     * 
+     * @return All the cards within the deck of cards.
+     */
     public synchronized Queue<Card> getAllCards(){
         return this.deckOfCards;
     }
+
+    /**
+     * Retrieves the number of the assigned deck.
+     * 
+     * @return The deck number.
+     */
     public int getDeckNumber(){
         return this.deckNumber;
     }

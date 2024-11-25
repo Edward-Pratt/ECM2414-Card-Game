@@ -23,6 +23,5 @@ abstract class Pack {
 
     public static Boolean validatePack(int NumPlayers, Queue<Card> packToValidate){
         return pack.size() == 8*NumPlayers;
-
     }
 }

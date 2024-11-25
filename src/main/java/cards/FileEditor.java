@@ -8,7 +8,18 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.FileNotFoundException;
 
+/**
+ * The FileEditor class. This class handles all the main components and
+ * function for creating files, writing to files and reading from files.
+ * 
+ * @author Edward Pratt & Sandy Hay
+ * @version 1.0
+ */
 public class FileEditor {
+    /**
+     * 
+     * @param fileName
+     */
     public void createFile(String fileName){
         try {
             File myObj = new File(fileName);
@@ -23,6 +34,11 @@ public class FileEditor {
         }
     }
 
+    /**
+     * 
+     * @param fileName
+     * @param fileContent
+     */
     public void writeFile(String fileName, String fileContent){
         try{
             File file = new File(fileName);
@@ -37,6 +53,11 @@ public class FileEditor {
         }
     }
 
+    /**
+     * 
+     * @param fileName
+     * @return
+     */
     public String[] readFile(String fileName){
         try{
             File file = new File(fileName);

@@ -2,4 +2,5 @@ cards\Player.class
 cards\CardDeck.class
 cards\CardGame.class
 cards\FileEditor.class
+cards\Pack.class
 cards\Card.class

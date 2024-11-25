@@ -4,9 +4,17 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class CardGame extends Pack{
+public class CardGame{
     private static final ArrayList<Player> players = new ArrayList<>();
     private static Queue<Card> PackofCards;
+    private static volatile boolean gameWon = false;
+
+    public static boolean isGameWon() {
+        return gameWon;
+    }
+    public static void setGameWon(boolean won) {
+        gameWon = won;
+    }
 
     public static void main(String[] args) {
         try{
@@ -31,8 +39,13 @@ public class CardGame extends Pack{
         CardDeck[] decks = new CardDeck[numPlayers];
         for (int i = 0; i < numPlayers; i++){
             decks[i] = new CardDeck(i);
-            players.set(i, new Player(i));
         }
+        for (int i = 0; i < numPlayers; i++){
+            CardDeck leftDeck = decks[((i-1) + numPlayers) % numPlayers];
+            CardDeck rightDeck = decks[(i+1) % numPlayers];
+            players.add(new Player(i, leftDeck, rightDeck));
+        }
+
         for(int i=0; i<4; i++) {
             for (int j = 0; j < numPlayers; j++) {
                 players.get(j).addCard(i, PackofCards.remove());
@@ -48,6 +61,17 @@ public class CardGame extends Pack{
 
     }
     private static void playGame() {
-
+        for (Player player: players){
+            if(player.hasWon()){
+                System.out.println("Player " + player.getPlayerNumber() + " has won the game!");
+                gameWon = true;
+            }
+        }
+        if(!gameWon){
+            for (Player player: players){
+                Thread playerThread = new Thread(player);
+                playerThread.start();
+            }
+        }
     }
 }

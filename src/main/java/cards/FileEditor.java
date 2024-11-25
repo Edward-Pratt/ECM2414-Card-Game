@@ -40,7 +40,7 @@ public class FileEditor {
     public String[] readFile(String fileName){
         try{
             File file = new File(fileName);
-            BufferedReader reader = new BufferedReader(new FileReader(file));
+            BufferedReader reader = new BufferedReader(new FileReader(fileName));
             ArrayList<String> lines = new ArrayList<String>();
             String line;
             while ((line = reader.readLine()) != null) {

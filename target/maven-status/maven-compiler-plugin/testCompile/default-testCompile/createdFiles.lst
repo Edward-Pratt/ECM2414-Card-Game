@@ -1,4 +1,6 @@
 cards\testFileEditor.class
 cards\testPlayer.class
 cards\testCard.class
+cards\testCardDeck.class
 cards\testCardGame.class
+cards\testPack.class

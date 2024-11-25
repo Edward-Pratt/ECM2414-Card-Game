@@ -18,8 +18,8 @@ abstract class Pack {
             return pack;
         } else {
             throw new RuntimeException("Pack is not valid");
-        }}
-
+        }
+    }
 
     public static Boolean validatePack(int NumPlayers, Queue<Card> packToValidate){
         return pack.size() == 8*NumPlayers;

@@ -56,10 +56,11 @@ public class Player extends Thread {
             }
         }
 
-        while(!(leftDeck.getAllCards().isEmpty())){
+        if(!(leftDeck.getAllCards().isEmpty())){
             this.cards[randomNumber] = leftDeck.removeCard();
+            rightDeck.addCard(possibleDiscard);
         }
-        rightDeck.addCard(possibleDiscard);
+
 
     }
 
@@ -69,7 +70,7 @@ public class Player extends Thread {
             takeTurn();
             if(hasWon()){
                 CardGame.setGameWon(true);
-                System.out.printf("Player %d has won the game!%n", this.playerNumber);
+                //System.out.printf("Player %d has won the game!%n", this.playerNumber);
             }
         }
     }

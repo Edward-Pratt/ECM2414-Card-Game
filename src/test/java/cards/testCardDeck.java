@@ -1,28 +1,11 @@
 package cards;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Assertions;
 
 
 public class testCardDeck {
-    
-    // CardDeck cardDeck;
-    // int testdeckNumber;
-    // Queue<Card> testCardDeck;
-
-    // @BeforeEach
-    // @Display("Generate Deck")
-    // void generateDeck{
-    //     testdeckNumber = (int) Math.round(Math.random() * 100);
-    //     cardDeck = new CardDeck(testdeckNumber)
-    //     testCardDeck = new LinkedList<>();
-
-    // }
 
     @Test
     @DisplayName("Deck Number")

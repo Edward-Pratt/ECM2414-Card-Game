@@ -4,6 +4,10 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.stream.Stream;
 
+/**
+ * 
+ */
+
 abstract class Pack {
     private static final Queue<Card> pack = new LinkedList<>();
 

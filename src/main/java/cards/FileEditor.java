@@ -11,14 +11,24 @@ import java.io.FileNotFoundException;
 /**
  * The FileEditor class. This class handles all the main components and
  * function for creating files, writing to files and reading from files.
+ * The functions in this class are all general classes where multiple classes,
+ * for example the Player or the CardDeck will use this class to read or write
+ * to their designated files.
  * 
  * @author Edward Pratt & Sandy Hay
  * @version 1.0
  */
 public class FileEditor {
     /**
+     * The createFile class. Used for creating the desired file for the
+     * card game. This class is a general class used for both, Player and Card
+     * <p>
+     * This method pops up an error message if the file already exists or an error 
+     * occurs when creating the file.
+     * </p>
      * 
-     * @param fileName
+     * @param fileName the name of the file
+     * @throws IOException if an I/O occurs during the creation of a file
      */
     public void createFile(String fileName){
         try {
@@ -35,9 +45,19 @@ public class FileEditor {
     }
 
     /**
+     * The writeFile class. This allows the card game to write to any file
+     * of its choosing, with the desired content that the game wants to
+     * write with.
+     * <p>
+     * This method attempts to overwrite a file with the specified
+     * content. If the file cannot be found or an I/O error occurs, an error
+     * message will be printed to the console.
+     * </p>
      * 
-     * @param fileName
-     * @param fileContent
+     * @param fileName    the name of the file to write to
+     * @param fileContent the content to be written to the file
+     * @throws FileNotFoundException if the specified file cannot be found
+     * @throws IOException           if an I/O error occurs during writing
      */
     public void writeFile(String fileName, String fileContent){
         try{
@@ -54,9 +74,18 @@ public class FileEditor {
     }
 
     /**
+     * The readFile class. This allows the card game to read from the desired 
+     * file and retrieves all the contents of the file, line-by-line. T
+     * <p>
+     * This method attempts to read from the file and retrieve all its contents
+     * for the desired class. If the desired file does not exists or an I/O error
+     * occurs, an error message will be printed to the console.
+     * </p>
      * 
-     * @param fileName
-     * @return
+     * @param fileName the name of the file
+     * @throws FileNotFoundException if the specified file cannot be found
+     * @throws IOException if an I/O error occurs during reading
+     * @return all the data retrieved from the file
      */
     public String[] readFile(String fileName){
         try{

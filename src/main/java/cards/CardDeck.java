@@ -9,6 +9,7 @@ import java.util.Queue;
  * <p>
  * The number of decks in the game equates to the amount of players that
  * are playing the card game.
+ * </p>
  * 
  * @author Edward Pratt and Alexander Hay
  * @version 1.0
@@ -22,8 +23,10 @@ public class CardDeck {
      * The constructor of the CardDeck class that instantiates and
      * initialises the non-static variables
      * <p>
-     * Assigns each deck in the game with a unique number.
-     * @param deckNumber
+     * Assigns each card deck in the game with a unique identifier.
+     * </p>
+     * 
+     * @param deckNumber the card deck number
      */
     public CardDeck(int deckNumber){
         this.deckNumber = deckNumber;
@@ -51,7 +54,7 @@ public class CardDeck {
      * (i.e., {@code synchronized(this)}).
      * </p>
      * 
-     * @param card The card that is being added to the bottom of the deck.
+     * @param card the card that is being added to the bottom of the deck
      */
     public synchronized void addCard(Card card){
         this.deckOfCards.add(card);
@@ -65,7 +68,7 @@ public class CardDeck {
      * (i.e., {@code synchronized(this)}).
      * </p>
      * 
-     * @return All the cards within the deck of cards.
+     * @return all the cards within the deck of cards
      */
     public synchronized Queue<Card> getAllCards(){
         return this.deckOfCards;
@@ -74,7 +77,7 @@ public class CardDeck {
     /**
      * Retrieves the number of the assigned deck.
      * 
-     * @return The deck number.
+     * @return the deck number
      */
     public int getDeckNumber(){
         return this.deckNumber;

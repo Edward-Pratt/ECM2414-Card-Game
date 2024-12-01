@@ -1,0 +1,118 @@
+Player 14 initial hand: 13, 43, 14, 20
+Player 14 discards 13
+Player 14 draws 42
+Player 14 hand: 42, 43, 14, 20
+Player 14 discards 42
+Player 14 draws 26
+Player 14 hand: 26, 43, 14, 20
+Player 14 discards 26
+Player 14 draws 14
+Player 14 hand: 14, 43, 14, 20
+Player 14 discards 43
+Player 14 draws 38
+Player 14 hand: 14, 38, 14, 20
+Player 14 discards 38
+Player 14 draws 20
+Player 14 hand: 14, 20, 14, 20
+Player 14 discards 20
+Player 14 draws 24
+Player 14 hand: 14, 24, 14, 20
+Player 14 discards 20
+Player 14 draws 22
+Player 14 hand: 14, 24, 14, 22
+Player 14 discards 22
+Player 14 draws 11
+Player 14 hand: 14, 24, 14, 11
+Player 14 discards 11
+Player 14 draws 13
+Player 14 hand: 14, 24, 14, 13
+Player 14 discards 13
+Player 14 draws 34
+Player 14 hand: 14, 24, 14, 34
+Player 14 discards 34
+Player 14 draws 39
+Player 14 hand: 14, 24, 14, 39
+Player 14 discards 39
+Player 14 draws 45
+Player 14 hand: 14, 24, 14, 45
+Player 14 discards 24
+Player 14 draws 45
+Player 14 hand: 14, 45, 14, 45
+Player 14 discards 45
+Player 14 draws 41
+Player 14 hand: 14, 45, 14, 41
+Player 14 discards 45
+Player 14 draws 7
+Player 14 hand: 14, 7, 14, 41
+Player 14 discards 7
+Player 14 draws 3
+Player 14 hand: 14, 3, 14, 41
+Player 14 discards 41
+Player 14 draws 42
+Player 14 hand: 14, 3, 14, 42
+Player 14 discards 42
+Player 14 draws 7
+Player 14 hand: 14, 3, 14, 7
+Player 14 discards 7
+Player 14 draws 24
+Player 14 hand: 14, 3, 14, 24
+Player 14 discards 3
+Player 14 draws 37
+Player 14 hand: 14, 37, 14, 24
+Player 14 discards 24
+Player 14 draws 31
+Player 14 hand: 14, 37, 14, 31
+Player 14 discards 37
+Player 14 draws 13
+Player 14 hand: 14, 13, 14, 31
+Player 14 discards 31
+Player 14 draws 1
+Player 14 hand: 14, 13, 14, 1
+Player 14 discards 1
+Player 14 draws 42
+Player 14 hand: 14, 13, 14, 42
+Player 14 discards 13
+Player 14 draws 38
+Player 14 hand: 14, 38, 14, 42
+Player 14 discards 42
+Player 14 draws 49
+Player 14 hand: 14, 38, 14, 49
+Player 14 discards 49
+Player 14 draws 45
+Player 14 hand: 14, 38, 14, 45
+Player 14 discards 38
+Player 14 draws 20
+Player 14 hand: 14, 20, 14, 45
+Player 14 discards 45
+Player 14 draws 17
+Player 14 hand: 14, 20, 14, 17
+Player 14 discards 17
+Player 14 draws 37
+Player 14 hand: 14, 20, 14, 37
+Player 14 discards 20
+Player 14 draws 32
+Player 14 hand: 14, 32, 14, 37
+Player 14 discards 32
+Player 14 draws 9
+Player 14 hand: 14, 9, 14, 37
+Player 14 discards 37
+Player 14 draws 19
+Player 14 hand: 14, 9, 14, 19
+Player 14 discards 9
+Player 14 draws 23
+Player 14 hand: 14, 23, 14, 19
+Player 14 discards 19
+Player 14 draws 21
+Player 14 hand: 14, 23, 14, 21
+Player 14 discards 23
+Player 14 draws 20
+Player 14 hand: 14, 20, 14, 21
+Player 14 discards 21
+Player 14 draws 18
+Player 14 hand: 14, 20, 14, 18
+Player 14 discards 18
+Player 14 draws 39
+Player 14 hand: 14, 20, 14, 39
+Player 14 discards 20
+Player 14 draws 14
+Player 14 hand: 14, 14, 14, 39

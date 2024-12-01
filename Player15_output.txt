@@ -1,0 +1,145 @@
+Player 15 initial hand: 28, 13, 7, 21
+Player 15 discards 21
+Player 15 draws 27
+Player 15 hand: 28, 13, 7, 27
+Player 15 discards 28
+Player 15 draws 25
+Player 15 hand: 25, 13, 7, 27
+Player 15 discards 25
+Player 15 draws 8
+Player 15 hand: 8, 13, 7, 27
+Player 15 discards 7
+Player 15 draws 29
+Player 15 hand: 8, 13, 29, 27
+Player 15 discards 29
+Player 15 draws 22
+Player 15 hand: 8, 13, 22, 27
+Player 15 discards 22
+Player 15 draws 1
+Player 15 hand: 8, 13, 1, 27
+Player 15 discards 1
+Player 15 draws 4
+Player 15 hand: 8, 13, 4, 27
+Player 15 discards 27
+Player 15 draws 20
+Player 15 hand: 8, 13, 4, 20
+Player 15 discards 4
+Player 15 draws 7
+Player 15 hand: 8, 13, 7, 20
+Player 15 discards 20
+Player 15 draws 47
+Player 15 hand: 8, 13, 7, 47
+Player 15 discards 8
+Player 15 draws 38
+Player 15 hand: 38, 13, 7, 47
+Player 15 discards 38
+Player 15 draws 48
+Player 15 hand: 48, 13, 7, 47
+Player 15 discards 13
+Player 15 draws 20
+Player 15 hand: 48, 20, 7, 47
+Player 15 discards 7
+Player 15 draws 9
+Player 15 hand: 48, 20, 9, 47
+Player 15 discards 9
+Player 15 draws 41
+Player 15 hand: 48, 20, 41, 47
+Player 15 discards 41
+Player 15 draws 23
+Player 15 hand: 48, 20, 23, 47
+Player 15 discards 20
+Player 15 draws 4
+Player 15 hand: 48, 4, 23, 47
+Player 15 discards 23
+Player 15 draws 8
+Player 15 hand: 48, 4, 8, 47
+Player 15 discards 4
+Player 15 draws 3
+Player 15 hand: 48, 3, 8, 47
+Player 15 discards 48
+Player 15 draws 2
+Player 15 hand: 2, 3, 8, 47
+Player 15 discards 3
+Player 15 draws 3
+Player 15 hand: 2, 3, 8, 47
+Player 15 discards 47
+Player 15 draws 0
+Player 15 hand: 2, 3, 8, 0
+Player 15 discards 3
+Player 15 draws 8
+Player 15 hand: 2, 8, 8, 0
+Player 15 discards 0
+Player 15 draws 44
+Player 15 hand: 2, 8, 8, 44
+Player 15 discards 2
+Player 15 draws 37
+Player 15 hand: 37, 8, 8, 44
+Player 15 discards 8
+Player 15 draws 33
+Player 15 hand: 37, 8, 33, 44
+Player 15 discards 44
+Player 15 draws 18
+Player 15 hand: 37, 8, 33, 18
+Player 15 discards 33
+Player 15 draws 39
+Player 15 hand: 37, 8, 39, 18
+Player 15 discards 8
+Player 15 draws 0
+Player 15 hand: 37, 0, 39, 18
+Player 15 discards 0
+Player 15 draws 42
+Player 15 hand: 37, 42, 39, 18
+Player 15 discards 42
+Player 15 draws 44
+Player 15 hand: 37, 44, 39, 18
+Player 15 discards 37
+Player 15 draws 8
+Player 15 hand: 8, 44, 39, 18
+Player 15 discards 39
+Player 15 draws 38
+Player 15 hand: 8, 44, 38, 18
+Player 15 discards 38
+Player 15 draws 2
+Player 15 hand: 8, 44, 2, 18
+Player 15 discards 8
+Player 15 draws 1
+Player 15 hand: 1, 44, 2, 18
+Player 15 discards 18
+Player 15 draws 4
+Player 15 hand: 1, 44, 2, 4
+Player 15 discards 1
+Player 15 draws 1
+Player 15 hand: 1, 44, 2, 4
+Player 15 discards 1
+Player 15 draws 19
+Player 15 hand: 19, 44, 2, 4
+Player 15 discards 44
+Player 15 draws 10
+Player 15 hand: 19, 10, 2, 4
+Player 15 discards 10
+Player 15 draws 28
+Player 15 hand: 19, 28, 2, 4
+Player 15 discards 4
+Player 15 draws 15
+Player 15 hand: 19, 28, 2, 15
+Player 15 discards 2
+Player 15 draws 14
+Player 15 hand: 19, 28, 14, 15
+Player 15 discards 19
+Player 15 draws 49
+Player 15 hand: 49, 28, 14, 15
+Player 15 discards 28
+Player 15 draws 39
+Player 15 hand: 49, 39, 14, 15
+Player 15 discards 49
+Player 15 draws 50
+Player 15 hand: 50, 39, 14, 15
+Player 15 discards 39
+Player 15 draws 33
+Player 15 hand: 50, 33, 14, 15
+Player 15 discards 33
+Player 15 draws 4
+Player 15 hand: 50, 4, 14, 15
+Player 15 discards 4
+Player 15 draws 43
+Player 15 hand: 50, 43, 14, 15

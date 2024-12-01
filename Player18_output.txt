@@ -1,0 +1,121 @@
+Player 18 initial hand: 19, 7, 42, 4
+Player 18 discards 4
+Player 18 draws 44
+Player 18 hand: 19, 7, 42, 44
+Player 18 discards 19
+Player 18 draws 49
+Player 18 hand: 49, 7, 42, 44
+Player 18 discards 49
+Player 18 draws 10
+Player 18 hand: 10, 7, 42, 44
+Player 18 discards 10
+Player 18 draws 28
+Player 18 hand: 28, 7, 42, 44
+Player 18 discards 7
+Player 18 draws 32
+Player 18 hand: 28, 32, 42, 44
+Player 18 discards 44
+Player 18 draws 10
+Player 18 hand: 28, 32, 42, 10
+Player 18 discards 28
+Player 18 draws 26
+Player 18 hand: 26, 32, 42, 10
+Player 18 discards 10
+Player 18 draws 48
+Player 18 hand: 26, 32, 42, 48
+Player 18 discards 32
+Player 18 draws 15
+Player 18 hand: 26, 15, 42, 48
+Player 18 discards 26
+Player 18 draws 37
+Player 18 hand: 37, 15, 42, 48
+Player 18 discards 15
+Player 18 draws 39
+Player 18 hand: 37, 39, 42, 48
+Player 18 discards 37
+Player 18 draws 26
+Player 18 hand: 26, 39, 42, 48
+Player 18 discards 42
+Player 18 draws 42
+Player 18 hand: 26, 39, 42, 48
+Player 18 discards 48
+Player 18 draws 13
+Player 18 hand: 26, 39, 42, 13
+Player 18 discards 39
+Player 18 draws 43
+Player 18 hand: 26, 43, 42, 13
+Player 18 discards 13
+Player 18 draws 38
+Player 18 hand: 26, 43, 42, 38
+Player 18 discards 43
+Player 18 draws 22
+Player 18 hand: 26, 22, 42, 38
+Player 18 discards 38
+Player 18 draws 50
+Player 18 hand: 26, 22, 42, 50
+Player 18 discards 26
+Player 18 draws 13
+Player 18 hand: 13, 22, 42, 50
+Player 18 discards 42
+Player 18 draws 34
+Player 18 hand: 13, 22, 34, 50
+Player 18 discards 34
+Player 18 draws 39
+Player 18 hand: 13, 22, 39, 50
+Player 18 discards 22
+Player 18 draws 24
+Player 18 hand: 13, 24, 39, 50
+Player 18 discards 13
+Player 18 draws 20
+Player 18 hand: 20, 24, 39, 50
+Player 18 discards 20
+Player 18 draws 20
+Player 18 hand: 20, 24, 39, 50
+Player 18 discards 20
+Player 18 draws 45
+Player 18 hand: 45, 24, 39, 50
+Player 18 discards 45
+Player 18 draws 7
+Player 18 hand: 7, 24, 39, 50
+Player 18 discards 50
+Player 18 draws 11
+Player 18 hand: 7, 24, 39, 11
+Player 18 discards 39
+Player 18 draws 7
+Player 18 hand: 7, 24, 7, 11
+Player 18 discards 11
+Player 18 draws 42
+Player 18 hand: 7, 24, 7, 42
+Player 18 discards 42
+Player 18 draws 3
+Player 18 hand: 7, 24, 7, 3
+Player 18 discards 24
+Player 18 draws 41
+Player 18 hand: 7, 41, 7, 3
+Player 18 discards 41
+Player 18 draws 45
+Player 18 hand: 7, 45, 7, 3
+Player 18 discards 3
+Player 18 draws 24
+Player 18 hand: 7, 45, 7, 24
+Player 18 discards 45
+Player 18 draws 31
+Player 18 hand: 7, 31, 7, 24
+Player 18 discards 24
+Player 18 draws 13
+Player 18 hand: 7, 31, 7, 13
+Player 18 discards 7
+Player 18 draws 42
+Player 18 hand: 7, 31, 42, 13
+Player 18 discards 13
+Player 18 draws 38
+Player 18 hand: 7, 31, 42, 38
+Player 18 discards 42
+Player 18 draws 45
+Player 18 hand: 7, 31, 45, 38
+Player 18 discards 31
+Player 18 draws 1
+Player 18 hand: 7, 1, 45, 38
+Player 18 discards 1
+Player 18 draws 17
+Player 18 hand: 7, 17, 45, 38

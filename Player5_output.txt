@@ -1,67 +1,139 @@
-Player 5 initial hand: 2, 32, 332, 10
-Player 5 discards 2
-Player 5 draws 6
-Player 5 hand: 6, 32, 332, 10
-Player 5 discards 32
-Player 5 draws 23
-Player 5 hand: 6, 23, 332, 10
-Player 5 discards 6
-Player 5 draws 9
-Player 5 hand: 9, 23, 332, 10
-Player 5 discards 332
-Player 5 draws 3
-Player 5 hand: 9, 23, 3, 10
-Player 5 discards 9
-Player 5 draws 52
-Player 5 hand: 52, 23, 3, 10
-Player 5 discards 10
-Player 5 draws 5
-Player 5 hand: 52, 23, 3, 5
-Player 5 discards 23
-Player 5 draws 4323
-Player 5 hand: 52, 4323, 3, 5
-Player 5 discards 52
-Player 5 draws 4323
-Player 5 hand: 4323, 4323, 3, 5
-Player 5 discards 4323
-Player 5 draws 42
-Player 5 hand: 4323, 42, 3, 5
-Player 5 discards 4323
-Player 5 draws 8
-Player 5 hand: 8, 42, 3, 5
-Player 5 discards 3
-Player 5 draws 8
-Player 5 hand: 8, 42, 8, 5
-Player 5 discards 8
-Player 5 draws 4
-Player 5 hand: 8, 42, 4, 5
-Player 5 discards 8
-Player 5 draws 7
-Player 5 hand: 7, 42, 4, 5
-Player 5 discards 7
-Player 5 draws 7
-Player 5 hand: 7, 42, 4, 5
-Player 5 discards 4
-Player 5 draws 76
-Player 5 hand: 7, 42, 76, 5
-Player 5 discards 42
-Player 5 draws 7
-Player 5 hand: 7, 7, 76, 5
-Player 5 discards 7
-Player 5 draws 4
-Player 5 hand: 4, 7, 76, 5
-Player 5 discards 76
-Player 5 draws 6
-Player 5 hand: 4, 7, 6, 5
-Player 5 discards 4
-Player 5 draws 6
-Player 5 hand: 6, 7, 6, 5
-Player 5 discards 6
-Player 5 draws 6
-Player 5 hand: 6, 7, 6, 5
-Player 5 discards 6
+Player 5 initial hand: 1, 0, 13, 1
+Player 5 discards 0
+Player 5 draws 44
+Player 5 hand: 1, 44, 13, 1
+Player 5 discards 13
 Player 5 draws 2
-Player 5 hand: 6, 7, 2, 5
+Player 5 hand: 1, 44, 2, 1
+Player 5 discards 44
+Player 5 draws 39
+Player 5 hand: 1, 39, 2, 1
 Player 5 discards 2
-Player 5 draws 562
-Player 5 hand: 6, 7, 562, 5
+Player 5 draws 4
+Player 5 hand: 1, 39, 4, 1
+Player 5 discards 1
+Player 5 draws 19
+Player 5 hand: 19, 39, 4, 1
+Player 5 discards 1
+Player 5 draws 49
+Player 5 hand: 19, 39, 4, 49
+Player 5 discards 4
+Player 5 draws 14
+Player 5 hand: 19, 39, 14, 49
+Player 5 discards 49
+Player 5 draws 4
+Player 5 hand: 19, 39, 14, 4
+Player 5 discards 39
+Player 5 draws 28
+Player 5 hand: 19, 28, 14, 4
+Player 5 discards 19
+Player 5 draws 15
+Player 5 hand: 15, 28, 14, 4
+Player 5 discards 28
+Player 5 draws 10
+Player 5 hand: 15, 10, 14, 4
+Player 5 discards 10
+Player 5 draws 13
+Player 5 hand: 15, 13, 14, 4
+Player 5 discards 15
+Player 5 draws 11
+Player 5 hand: 11, 13, 14, 4
+Player 5 discards 4
+Player 5 draws 43
+Player 5 hand: 11, 13, 14, 43
+Player 5 discards 13
+Player 5 draws 5
+Player 5 hand: 11, 5, 14, 43
+Player 5 discards 11
+Player 5 draws 4
+Player 5 hand: 4, 5, 14, 43
+Player 5 discards 4
+Player 5 draws 33
+Player 5 hand: 33, 5, 14, 43
+Player 5 discards 14
+Player 5 draws 50
+Player 5 hand: 33, 5, 50, 43
+Player 5 discards 43
+Player 5 draws 40
+Player 5 hand: 33, 5, 50, 40
+Player 5 discards 50
+Player 5 draws 0
+Player 5 hand: 33, 5, 0, 40
+Player 5 discards 33
+Player 5 draws 22
+Player 5 hand: 22, 5, 0, 40
+Player 5 discards 22
+Player 5 draws 2
+Player 5 hand: 2, 5, 0, 40
+Player 5 discards 0
+Player 5 draws 31
+Player 5 hand: 2, 5, 31, 40
+Player 5 discards 40
+Player 5 draws 32
+Player 5 hand: 2, 5, 31, 32
+Player 5 discards 31
+Player 5 draws 17
+Player 5 hand: 2, 5, 17, 32
+Player 5 discards 32
+Player 5 draws 47
+Player 5 hand: 2, 5, 17, 47
+Player 5 discards 17
+Player 5 draws 24
+Player 5 hand: 2, 5, 24, 47
+Player 5 discards 24
+Player 5 draws 16
+Player 5 hand: 2, 5, 16, 47
+Player 5 discards 16
+Player 5 draws 4
+Player 5 hand: 2, 5, 4, 47
+Player 5 discards 47
+Player 5 draws 46
+Player 5 hand: 2, 5, 4, 46
+Player 5 discards 2
+Player 5 draws 17
+Player 5 hand: 17, 5, 4, 46
+Player 5 discards 46
+Player 5 draws 24
+Player 5 hand: 17, 5, 4, 24
+Player 5 discards 24
+Player 5 draws 41
+Player 5 hand: 17, 5, 4, 41
+Player 5 discards 17
+Player 5 draws 4
+Player 5 hand: 4, 5, 4, 41
+Player 5 discards 4
+Player 5 draws 41
+Player 5 hand: 4, 5, 41, 41
+Player 5 discards 41
+Player 5 draws 21
+Player 5 hand: 4, 5, 21, 41
+Player 5 discards 4
+Player 5 draws 28
+Player 5 hand: 28, 5, 21, 41
+Player 5 discards 21
+Player 5 draws 29
+Player 5 hand: 28, 5, 29, 41
+Player 5 discards 28
+Player 5 draws 7
+Player 5 hand: 7, 5, 29, 41
+Player 5 discards 41
+Player 5 draws 20
+Player 5 hand: 7, 5, 29, 20
+Player 5 discards 20
+Player 5 draws 25
+Player 5 hand: 7, 5, 29, 25
+Player 5 discards 29
+Player 5 draws 7
+Player 5 hand: 7, 5, 7, 25
+Player 5 discards 7
+Player 5 draws 20
+Player 5 hand: 20, 5, 7, 25
+Player 5 discards 7
+Player 5 draws 8
+Player 5 hand: 20, 5, 8, 25
+Player 5 discards 25
+Player 5 draws 38
+Player 5 hand: 20, 5, 8, 38
+Player 5 discards 38
+Player 5 draws 22
+Player 5 hand: 20, 5, 8, 22

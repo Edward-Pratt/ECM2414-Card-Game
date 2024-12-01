@@ -1,0 +1,118 @@
+Player 12 initial hand: 22, 13, 24, 20
+Player 12 discards 20
+Player 12 draws 11
+Player 12 hand: 22, 13, 24, 11
+Player 12 discards 24
+Player 12 draws 41
+Player 12 hand: 22, 13, 41, 11
+Player 12 discards 22
+Player 12 draws 12
+Player 12 hand: 12, 13, 41, 11
+Player 12 discards 11
+Player 12 draws 34
+Player 12 hand: 12, 13, 41, 34
+Player 12 discards 13
+Player 12 draws 45
+Player 12 hand: 12, 45, 41, 34
+Player 12 discards 34
+Player 12 draws 39
+Player 12 hand: 12, 45, 41, 39
+Player 12 discards 39
+Player 12 draws 7
+Player 12 hand: 12, 45, 41, 7
+Player 12 discards 45
+Player 12 draws 45
+Player 12 hand: 12, 45, 41, 7
+Player 12 discards 45
+Player 12 draws 7
+Player 12 hand: 12, 7, 41, 7
+Player 12 discards 41
+Player 12 draws 3
+Player 12 hand: 12, 7, 3, 7
+Player 12 discards 7
+Player 12 draws 42
+Player 12 hand: 12, 42, 3, 7
+Player 12 discards 3
+Player 12 draws 13
+Player 12 hand: 12, 42, 13, 7
+Player 12 discards 42
+Player 12 draws 24
+Player 12 hand: 12, 24, 13, 7
+Player 12 discards 7
+Player 12 draws 37
+Player 12 hand: 12, 24, 13, 37
+Player 12 discards 24
+Player 12 draws 20
+Player 12 hand: 12, 20, 13, 37
+Player 12 discards 37
+Player 12 draws 31
+Player 12 hand: 12, 20, 13, 31
+Player 12 discards 31
+Player 12 draws 49
+Player 12 hand: 12, 20, 13, 49
+Player 12 discards 13
+Player 12 draws 1
+Player 12 hand: 12, 20, 1, 49
+Player 12 discards 1
+Player 12 draws 42
+Player 12 hand: 12, 20, 42, 49
+Player 12 discards 42
+Player 12 draws 38
+Player 12 hand: 12, 20, 38, 49
+Player 12 discards 38
+Player 12 draws 45
+Player 12 hand: 12, 20, 45, 49
+Player 12 discards 49
+Player 12 draws 9
+Player 12 hand: 12, 20, 45, 9
+Player 12 discards 45
+Player 12 draws 17
+Player 12 hand: 12, 20, 17, 9
+Player 12 discards 20
+Player 12 draws 37
+Player 12 hand: 12, 37, 17, 9
+Player 12 discards 17
+Player 12 draws 12
+Player 12 hand: 12, 37, 12, 9
+Player 12 discards 37
+Player 12 draws 32
+Player 12 hand: 12, 32, 12, 9
+Player 12 discards 32
+Player 12 draws 23
+Player 12 hand: 12, 23, 12, 9
+Player 12 discards 9
+Player 12 draws 19
+Player 12 hand: 12, 23, 12, 19
+Player 12 discards 19
+Player 12 draws 18
+Player 12 hand: 12, 23, 12, 18
+Player 12 discards 23
+Player 12 draws 21
+Player 12 hand: 12, 21, 12, 18
+Player 12 discards 21
+Player 12 draws 20
+Player 12 hand: 12, 20, 12, 18
+Player 12 discards 20
+Player 12 draws 11
+Player 12 hand: 12, 11, 12, 18
+Player 12 discards 18
+Player 12 draws 39
+Player 12 hand: 12, 11, 12, 39
+Player 12 discards 39
+Player 12 draws 14
+Player 12 hand: 12, 11, 12, 14
+Player 12 discards 14
+Player 12 draws 29
+Player 12 hand: 12, 11, 12, 29
+Player 12 discards 29
+Player 12 draws 20
+Player 12 hand: 12, 11, 12, 20
+Player 12 discards 11
+Player 12 draws 23
+Player 12 hand: 12, 23, 12, 20
+Player 12 discards 20
+Player 12 draws 26
+Player 12 hand: 12, 23, 12, 26
+Player 12 discards 26
+Player 12 draws 19
+Player 12 hand: 12, 23, 12, 19

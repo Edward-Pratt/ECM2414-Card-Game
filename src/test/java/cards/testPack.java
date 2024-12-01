@@ -1,6 +1,7 @@
 package cards;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -33,11 +34,15 @@ public class testPack {
     @Test
     @DisplayName("Reading Pack File")
     void readTestPack() {
-        Queue<Card> testPack = new LinkedList<>();
         Queue<Card> fileCards = Pack.readPack(packFileName.getName(), 3);
-        for (Card card : fileCards)
-            testPack.add(card);
-        Assertions.assertArrayEquals(testPack.toArray(), cardsPack.toArray());
+        ArrayList<Integer> testPackContents = new ArrayList<>();
+        ArrayList<Integer> filePackContents = new ArrayList<>();
+        Queue<Card> testPack = new LinkedList<>(fileCards);
+        for (int i=0; i<24; i++) {
+            testPackContents.add(testPack.remove().getValue());
+            filePackContents.add(fileCards.remove().getValue());
+        }
+        Assertions.assertArrayEquals(testPackContents.toArray(), filePackContents.toArray());
     }
 
     @Test

@@ -76,6 +76,6 @@ public class testPlayer {
     @Test
     @DisplayName("Players Turn")
     void playerTakesTurn() {
-        
+
     }
 }

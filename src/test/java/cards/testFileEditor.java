@@ -23,6 +23,5 @@ public class testFileEditor {
         fe.createFile("testFile.txt");
         fe.writeFile("testFile.txt", "Test Data");
         Assertions.assertEquals(fe.readFile("testFile.txt")[0], "Test Data", "File was not written to or read from correctly");
-
     }
 }

@@ -33,7 +33,8 @@ public class testPlayer {
     @DisplayName("Adding a card")
     void testPlayerCard() {
         Card testCard = new Card((int) Math.round(Math.random()*100));
-        this.player.addCard(this.playerNumber, testCard);
+        this.player = new Player(this.playerNumber, this.testLeftDeck, this.testRightDeck);
+        this.player.addCard(this.player.getAllCards().length - 1, testCard);
         Assertions.assertEquals(this.player.getCard(player.getAllCards().length - 1), testCard);
     }
 
@@ -49,4 +50,6 @@ public class testPlayer {
         Assertions.assertArrayEquals(this.player.getAllCards(), playerDeck);
     }
     
+    @Test
+    @DisplayName
 }

@@ -47,14 +47,13 @@ public class testPack {
         Queue<Card> testPack1 = new LinkedList<>();
         Queue<Card> testPack2 = new LinkedList<>();
         Card testCard;
-         for (int i = 0; i < 4; i++) {
-             testCard = new Card((int) Math.round(Math.random()*100));
-             testPack2.add(testCard);
-         }
-         for (int j = 0; j < 8; j++) {
+         for (int i = 0; i < 8; i++) {
              testCard = new Card((int) Math.round(Math.random()*100));
              testPack1.add(testCard);
-             //testPack2.add(testCard);
+         }
+         for (int j = 0; j < 4; j++) {
+             testCard = new Card((int) Math.round(Math.random()*100));
+             testPack2.add(testCard);
          }
 
         Assertions.assertEquals(true, Pack.validatePack(1, testPack1));

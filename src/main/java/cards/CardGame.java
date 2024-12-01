@@ -33,8 +33,6 @@ public class CardGame{
 
     }
 
-
-
     public static void setupGame(int numPlayers){
         CardDeck[] decks = new CardDeck[numPlayers];
         for (int i = 0; i < numPlayers; i++){

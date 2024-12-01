@@ -1,0 +1,67 @@
+Player 5 initial hand: 2, 32, 332, 10
+Player 5 discards 2
+Player 5 draws 6
+Player 5 hand: 6, 32, 332, 10
+Player 5 discards 32
+Player 5 draws 23
+Player 5 hand: 6, 23, 332, 10
+Player 5 discards 6
+Player 5 draws 9
+Player 5 hand: 9, 23, 332, 10
+Player 5 discards 332
+Player 5 draws 3
+Player 5 hand: 9, 23, 3, 10
+Player 5 discards 9
+Player 5 draws 52
+Player 5 hand: 52, 23, 3, 10
+Player 5 discards 10
+Player 5 draws 5
+Player 5 hand: 52, 23, 3, 5
+Player 5 discards 23
+Player 5 draws 4323
+Player 5 hand: 52, 4323, 3, 5
+Player 5 discards 52
+Player 5 draws 4323
+Player 5 hand: 4323, 4323, 3, 5
+Player 5 discards 4323
+Player 5 draws 42
+Player 5 hand: 4323, 42, 3, 5
+Player 5 discards 4323
+Player 5 draws 8
+Player 5 hand: 8, 42, 3, 5
+Player 5 discards 3
+Player 5 draws 8
+Player 5 hand: 8, 42, 8, 5
+Player 5 discards 8
+Player 5 draws 4
+Player 5 hand: 8, 42, 4, 5
+Player 5 discards 8
+Player 5 draws 7
+Player 5 hand: 7, 42, 4, 5
+Player 5 discards 7
+Player 5 draws 7
+Player 5 hand: 7, 42, 4, 5
+Player 5 discards 4
+Player 5 draws 76
+Player 5 hand: 7, 42, 76, 5
+Player 5 discards 42
+Player 5 draws 7
+Player 5 hand: 7, 7, 76, 5
+Player 5 discards 7
+Player 5 draws 4
+Player 5 hand: 4, 7, 76, 5
+Player 5 discards 76
+Player 5 draws 6
+Player 5 hand: 4, 7, 6, 5
+Player 5 discards 4
+Player 5 draws 6
+Player 5 hand: 6, 7, 6, 5
+Player 5 discards 6
+Player 5 draws 6
+Player 5 hand: 6, 7, 6, 5
+Player 5 discards 6
+Player 5 draws 2
+Player 5 hand: 6, 7, 2, 5
+Player 5 discards 2
+Player 5 draws 562
+Player 5 hand: 6, 7, 562, 5

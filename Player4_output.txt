@@ -1,0 +1,67 @@
+Player 4 initial hand: 321, 2, 32, 4
+Player 4 discards 32
+Player 4 draws 5
+Player 4 hand: 321, 2, 5, 4
+Player 4 discards 2
+Player 4 draws 6
+Player 4 hand: 321, 6, 5, 4
+Player 4 discards 6
+Player 4 draws 8
+Player 4 hand: 321, 8, 5, 4
+Player 4 discards 8
+Player 4 draws 34
+Player 4 hand: 321, 34, 5, 4
+Player 4 discards 34
+Player 4 draws 63
+Player 4 hand: 321, 63, 5, 4
+Player 4 discards 63
+Player 4 draws 13
+Player 4 hand: 321, 13, 5, 4
+Player 4 discards 13
+Player 4 draws 3
+Player 4 hand: 321, 3, 5, 4
+Player 4 discards 5
+Player 4 draws 7
+Player 4 hand: 321, 3, 7, 4
+Player 4 discards 3
+Player 4 draws 7
+Player 4 hand: 321, 7, 7, 4
+Player 4 discards 7
+Player 4 draws 5
+Player 4 hand: 321, 5, 7, 4
+Player 4 discards 7
+Player 4 draws 1
+Player 4 hand: 321, 5, 1, 4
+Player 4 discards 1
+Player 4 draws 34
+Player 4 hand: 321, 5, 34, 4
+Player 4 discards 321
+Player 4 draws 4
+Player 4 hand: 4, 5, 34, 4
+Player 4 discards 34
+Player 4 draws 243
+Player 4 hand: 4, 5, 243, 4
+Player 4 discards 243
+Player 4 draws 6
+Player 4 hand: 4, 5, 6, 4
+Player 4 discards 5
+Player 4 draws 43
+Player 4 hand: 4, 43, 6, 4
+Player 4 discards 6
+Player 4 draws 5
+Player 4 hand: 4, 43, 5, 4
+Player 4 discards 5
+Player 4 draws 4
+Player 4 hand: 4, 43, 4, 4
+Player 4 discards 43
+Player 4 draws 3
+Player 4 hand: 4, 3, 4, 4
+Player 4 discards 3
+Player 4 draws 3
+Player 4 hand: 4, 3, 4, 4
+Player 4 discards 3
+Player 4 draws 32
+Player 4 hand: 4, 32, 4, 4
+Player 4 discards 32
+Player 4 draws 212
+Player 4 hand: 4, 212, 4, 4

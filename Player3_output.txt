@@ -1,0 +1,67 @@
+Player 3 initial hand: 42, 52, 4323, 4
+Player 3 discards 52
+Player 3 draws 5
+Player 3 hand: 42, 5, 4323, 4
+Player 3 discards 5
+Player 3 draws 4323
+Player 3 hand: 42, 4323, 4323, 4
+Player 3 discards 4323
+Player 3 draws 8
+Player 3 hand: 42, 4323, 8, 4
+Player 3 discards 4323
+Player 3 draws 8
+Player 3 hand: 42, 8, 8, 4
+Player 3 discards 42
+Player 3 draws 3
+Player 3 hand: 3, 8, 8, 4
+Player 3 discards 8
+Player 3 draws 7
+Player 3 hand: 3, 8, 7, 4
+Player 3 discards 8
+Player 3 draws 7
+Player 3 hand: 3, 7, 7, 4
+Player 3 discards 4
+Player 3 draws 7
+Player 3 hand: 3, 7, 7, 7
+Player 3 discards 7
+Player 3 draws 3
+Player 3 hand: 3, 7, 3, 7
+Player 3 discards 7
+Player 3 draws 76
+Player 3 hand: 3, 76, 3, 7
+Player 3 discards 76
+Player 3 draws 4
+Player 3 hand: 3, 4, 3, 7
+Player 3 discards 7
+Player 3 draws 6
+Player 3 hand: 3, 4, 3, 6
+Player 3 discards 4
+Player 3 draws 6
+Player 3 hand: 3, 6, 3, 6
+Player 3 discards 6
+Player 3 draws 3
+Player 3 hand: 3, 6, 3, 3
+Player 3 discards 6
+Player 3 draws 6
+Player 3 hand: 3, 6, 3, 3
+Player 3 discards 6
+Player 3 draws 2
+Player 3 hand: 3, 2, 3, 3
+Player 3 discards 2
+Player 3 draws 562
+Player 3 hand: 3, 562, 3, 3
+Player 3 discards 562
+Player 3 draws 6
+Player 3 hand: 3, 6, 3, 3
+Player 3 discards 6
+Player 3 draws 9
+Player 3 hand: 3, 9, 3, 3
+Player 3 discards 9
+Player 3 draws 6
+Player 3 hand: 3, 6, 3, 3
+Player 3 discards 6
+Player 3 draws 332
+Player 3 hand: 3, 332, 3, 3
+Player 3 discards 332
+Player 3 draws 34
+Player 3 hand: 3, 34, 3, 3

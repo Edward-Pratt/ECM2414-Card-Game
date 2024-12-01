@@ -1,0 +1,67 @@
+Player 7 initial hand: 6, 6, 3, 4
+Player 7 discards 4
+Player 7 draws 6
+Player 7 hand: 6, 6, 3, 6
+Player 7 discards 6
+Player 7 draws 34
+Player 7 hand: 6, 34, 3, 6
+Player 7 discards 6
+Player 7 draws 6
+Player 7 hand: 6, 34, 3, 6
+Player 7 discards 3
+Player 7 draws 562
+Player 7 hand: 6, 34, 562, 6
+Player 7 discards 6
+Player 7 draws 2
+Player 7 hand: 2, 34, 562, 6
+Player 7 discards 562
+Player 7 draws 32
+Player 7 hand: 2, 34, 32, 6
+Player 7 discards 6
+Player 7 draws 6
+Player 7 hand: 2, 34, 32, 6
+Player 7 discards 34
+Player 7 draws 332
+Player 7 hand: 2, 332, 32, 6
+Player 7 discards 6
+Player 7 draws 9
+Player 7 hand: 2, 332, 32, 9
+Player 7 discards 9
+Player 7 draws 10
+Player 7 hand: 2, 332, 32, 10
+Player 7 discards 2
+Player 7 draws 23
+Player 7 hand: 23, 332, 32, 10
+Player 7 discards 332
+Player 7 draws 52
+Player 7 hand: 23, 52, 32, 10
+Player 7 discards 32
+Player 7 draws 4323
+Player 7 hand: 23, 52, 4323, 10
+Player 7 discards 23
+Player 7 draws 4323
+Player 7 hand: 4323, 52, 4323, 10
+Player 7 discards 10
+Player 7 draws 3
+Player 7 hand: 4323, 52, 4323, 3
+Player 7 discards 4323
+Player 7 draws 8
+Player 7 hand: 8, 52, 4323, 3
+Player 7 discards 8
+Player 7 draws 8
+Player 7 hand: 8, 52, 4323, 3
+Player 7 discards 4323
+Player 7 draws 7
+Player 7 hand: 8, 52, 7, 3
+Player 7 discards 8
+Player 7 draws 4
+Player 7 hand: 4, 52, 7, 3
+Player 7 discards 52
+Player 7 draws 42
+Player 7 hand: 4, 42, 7, 3
+Player 7 discards 42
+Player 7 draws 7
+Player 7 hand: 4, 7, 7, 3
+Player 7 discards 4
+Player 7 draws 76
+Player 7 hand: 76, 7, 7, 3

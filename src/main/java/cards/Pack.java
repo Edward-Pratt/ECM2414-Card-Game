@@ -51,6 +51,6 @@ abstract class Pack {
      *         otherwise, returns FALSE
      */
     public static Boolean validatePack(int NumPlayers, Queue<Card> packToValidate){
-        return pack.size() == 8*NumPlayers;
+        return packToValidate.size() == 8*NumPlayers;
     }
 }

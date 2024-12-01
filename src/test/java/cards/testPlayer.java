@@ -63,19 +63,19 @@ public class testPlayer {
             testPlayer1.addCard(i, testCard);
 
             testCard = new Card(5);
-            testPlayer1.addCard(i, testCard);
+            testPlayer2.addCard(i, testCard);
 
-            testCard = new Card((int) Math.round(Math.random()))
-            testPlayer1.addCard(i, testCard);
+            testCard = new Card((int) Math.round(Math.random()*100) * i);
+            testPlayer3.addCard(i, testCard);
         }
         Assertions.assertEquals(true, testPlayer1.hasWon());
-        Assertions.assertEquals(false, testPlayer2.hasWon());
+        Assertions.assertEquals(true, testPlayer2.hasWon());
         Assertions.assertEquals(false, testPlayer3.hasWon());
     }
 
     @Test
     @DisplayName("Players Turn")
     void playerTakesTurn() {
-
+        
     }
 }

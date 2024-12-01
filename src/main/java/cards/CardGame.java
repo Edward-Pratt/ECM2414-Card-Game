@@ -27,6 +27,7 @@ public class CardGame{
             PackofCards = Pack.readPack(packFile, numPlayers);
             setupGame(numPlayers);
             playGame();
+            commandReader.close();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

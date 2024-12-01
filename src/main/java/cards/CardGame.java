@@ -36,7 +36,7 @@ public class CardGame{
     public static void setupGame(int numPlayers){
         CardDeck[] decks = new CardDeck[numPlayers];
         for (int i = 0; i < numPlayers; i++){
-            decks[i] = new CardDeck(i);
+            decks[i] = new CardDeck(i+1);
         }
         for (int i = 0; i < numPlayers; i++){
             CardDeck leftDeck = decks[((i-1) + numPlayers) % numPlayers];

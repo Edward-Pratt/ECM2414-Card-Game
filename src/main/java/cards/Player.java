@@ -83,11 +83,5 @@ public class Player extends Thread {
                     takeTurn();
                 }
             }
-
-            try {
-                Thread.sleep(10); // Allow other threads time to execute
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt(); // Preserve the interrupt status
-            }
         }
     }}

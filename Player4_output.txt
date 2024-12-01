@@ -1,67 +1,127 @@
-Player 4 initial hand: 321, 2, 32, 4
-Player 4 discards 32
-Player 4 draws 5
-Player 4 hand: 321, 2, 5, 4
-Player 4 discards 2
-Player 4 draws 6
-Player 4 hand: 321, 6, 5, 4
-Player 4 discards 6
+Player 4 initial hand: 23, 10, 23, 18
+Player 4 discards 23
 Player 4 draws 8
-Player 4 hand: 321, 8, 5, 4
+Player 4 hand: 8, 10, 23, 18
+Player 4 discards 18
+Player 4 draws 23
+Player 4 hand: 8, 10, 23, 23
 Player 4 discards 8
-Player 4 draws 34
-Player 4 hand: 321, 34, 5, 4
-Player 4 discards 34
-Player 4 draws 63
-Player 4 hand: 321, 63, 5, 4
-Player 4 discards 63
-Player 4 draws 13
-Player 4 hand: 321, 13, 5, 4
-Player 4 discards 13
-Player 4 draws 3
-Player 4 hand: 321, 3, 5, 4
-Player 4 discards 5
-Player 4 draws 7
-Player 4 hand: 321, 3, 7, 4
-Player 4 discards 3
-Player 4 draws 7
-Player 4 hand: 321, 7, 7, 4
-Player 4 discards 7
+Player 4 draws 11
+Player 4 hand: 11, 10, 23, 23
+Player 4 discards 23
+Player 4 draws 8
+Player 4 hand: 11, 10, 8, 23
+Player 4 discards 10
+Player 4 draws 14
+Player 4 hand: 11, 14, 8, 23
+Player 4 discards 14
+Player 4 draws 20
+Player 4 hand: 11, 20, 8, 23
+Player 4 discards 8
+Player 4 draws 8
+Player 4 hand: 11, 20, 8, 23
+Player 4 discards 20
+Player 4 draws 39
+Player 4 hand: 11, 39, 8, 23
+Player 4 discards 8
+Player 4 draws 21
+Player 4 hand: 11, 39, 21, 23
+Player 4 discards 11
+Player 4 draws 20
+Player 4 hand: 20, 39, 21, 23
+Player 4 discards 21
 Player 4 draws 5
-Player 4 hand: 321, 5, 7, 4
-Player 4 discards 7
-Player 4 draws 1
-Player 4 hand: 321, 5, 1, 4
-Player 4 discards 1
-Player 4 draws 34
-Player 4 hand: 321, 5, 34, 4
-Player 4 discards 321
-Player 4 draws 4
-Player 4 hand: 4, 5, 34, 4
-Player 4 discards 34
-Player 4 draws 243
-Player 4 hand: 4, 5, 243, 4
-Player 4 discards 243
-Player 4 draws 6
-Player 4 hand: 4, 5, 6, 4
-Player 4 discards 5
-Player 4 draws 43
-Player 4 hand: 4, 43, 6, 4
-Player 4 discards 6
+Player 4 hand: 20, 39, 5, 23
+Player 4 discards 39
+Player 4 draws 46
+Player 4 hand: 20, 46, 5, 23
+Player 4 discards 20
 Player 4 draws 5
-Player 4 hand: 4, 43, 5, 4
+Player 4 hand: 5, 46, 5, 23
 Player 4 discards 5
-Player 4 draws 4
-Player 4 hand: 4, 43, 4, 4
-Player 4 discards 43
-Player 4 draws 3
-Player 4 hand: 4, 3, 4, 4
-Player 4 discards 3
-Player 4 draws 3
-Player 4 hand: 4, 3, 4, 4
-Player 4 discards 3
+Player 4 draws 49
+Player 4 hand: 49, 46, 5, 23
+Player 4 discards 23
+Player 4 draws 26
+Player 4 hand: 49, 46, 5, 26
+Player 4 discards 26
+Player 4 draws 39
+Player 4 hand: 49, 46, 5, 39
+Player 4 discards 39
+Player 4 draws 31
+Player 4 hand: 49, 46, 5, 31
+Player 4 discards 46
+Player 4 draws 19
+Player 4 hand: 49, 19, 5, 31
+Player 4 discards 19
+Player 4 draws 0
+Player 4 hand: 49, 0, 5, 31
+Player 4 discards 49
+Player 4 draws 9
+Player 4 hand: 9, 0, 5, 31
+Player 4 discards 9
+Player 4 draws 10
+Player 4 hand: 10, 0, 5, 31
+Player 4 discards 31
+Player 4 draws 28
+Player 4 hand: 10, 0, 5, 28
+Player 4 discards 0
+Player 4 draws 23
+Player 4 hand: 10, 23, 5, 28
+Player 4 discards 28
+Player 4 draws 49
+Player 4 hand: 10, 23, 5, 49
+Player 4 discards 10
+Player 4 draws 44
+Player 4 hand: 44, 23, 5, 49
+Player 4 discards 49
+Player 4 draws 7
+Player 4 hand: 44, 23, 5, 7
+Player 4 discards 7
 Player 4 draws 32
-Player 4 hand: 4, 32, 4, 4
+Player 4 hand: 44, 23, 5, 32
+Player 4 discards 44
+Player 4 draws 4
+Player 4 hand: 4, 23, 5, 32
 Player 4 discards 32
-Player 4 draws 212
-Player 4 hand: 4, 212, 4, 4
+Player 4 draws 48
+Player 4 hand: 4, 23, 5, 48
+Player 4 discards 23
+Player 4 draws 10
+Player 4 hand: 4, 10, 5, 48
+Player 4 discards 10
+Player 4 draws 37
+Player 4 hand: 4, 37, 5, 48
+Player 4 discards 5
+Player 4 draws 42
+Player 4 hand: 4, 37, 42, 48
+Player 4 discards 42
+Player 4 draws 43
+Player 4 hand: 4, 37, 43, 48
+Player 4 discards 48
+Player 4 draws 26
+Player 4 hand: 4, 37, 43, 26
+Player 4 discards 37
+Player 4 draws 42
+Player 4 hand: 4, 42, 43, 26
+Player 4 discards 42
+Player 4 draws 26
+Player 4 hand: 4, 26, 43, 26
+Player 4 discards 43
+Player 4 draws 38
+Player 4 hand: 4, 26, 38, 26
+Player 4 discards 26
+Player 4 draws 34
+Player 4 hand: 4, 26, 38, 34
+Player 4 discards 26
+Player 4 draws 15
+Player 4 hand: 4, 15, 38, 34
+Player 4 discards 38
+Player 4 draws 39
+Player 4 hand: 4, 15, 39, 34
+Player 4 discards 39
+Player 4 draws 50
+Player 4 hand: 4, 15, 50, 34
+Player 4 discards 15
+Player 4 draws 39
+Player 4 hand: 4, 39, 50, 34

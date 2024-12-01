@@ -1,0 +1,121 @@
+Player 10 initial hand: 39, 45, 42, 37
+Player 10 discards 45
+Player 10 draws 7
+Player 10 hand: 39, 7, 42, 37
+Player 10 discards 39
+Player 10 draws 45
+Player 10 hand: 45, 7, 42, 37
+Player 10 discards 7
+Player 10 draws 7
+Player 10 hand: 45, 7, 42, 37
+Player 10 discards 45
+Player 10 draws 1
+Player 10 hand: 1, 7, 42, 37
+Player 10 discards 7
+Player 10 draws 3
+Player 10 hand: 1, 3, 42, 37
+Player 10 discards 3
+Player 10 draws 13
+Player 10 hand: 1, 13, 42, 37
+Player 10 discards 42
+Player 10 draws 31
+Player 10 hand: 1, 13, 31, 37
+Player 10 discards 13
+Player 10 draws 24
+Player 10 hand: 1, 24, 31, 37
+Player 10 discards 24
+Player 10 draws 20
+Player 10 hand: 1, 20, 31, 37
+Player 10 discards 37
+Player 10 draws 49
+Player 10 hand: 1, 20, 31, 49
+Player 10 discards 20
+Player 10 draws 29
+Player 10 hand: 1, 29, 31, 49
+Player 10 discards 31
+Player 10 draws 42
+Player 10 hand: 1, 29, 42, 49
+Player 10 discards 49
+Player 10 draws 38
+Player 10 hand: 1, 29, 42, 38
+Player 10 discards 1
+Player 10 draws 12
+Player 10 hand: 12, 29, 42, 38
+Player 10 discards 42
+Player 10 draws 17
+Player 10 hand: 12, 29, 17, 38
+Player 10 discards 38
+Player 10 draws 45
+Player 10 hand: 12, 29, 17, 45
+Player 10 discards 45
+Player 10 draws 9
+Player 10 hand: 12, 29, 17, 9
+Player 10 discards 9
+Player 10 draws 23
+Player 10 hand: 12, 29, 17, 23
+Player 10 discards 17
+Player 10 draws 37
+Player 10 hand: 12, 29, 37, 23
+Player 10 discards 37
+Player 10 draws 19
+Player 10 hand: 12, 29, 19, 23
+Player 10 discards 12
+Player 10 draws 32
+Player 10 hand: 32, 29, 19, 23
+Player 10 discards 32
+Player 10 draws 23
+Player 10 hand: 23, 29, 19, 23
+Player 10 discards 23
+Player 10 draws 10
+Player 10 hand: 23, 29, 19, 10
+Player 10 discards 19
+Player 10 draws 18
+Player 10 hand: 23, 29, 18, 10
+Player 10 discards 18
+Player 10 draws 21
+Player 10 hand: 23, 29, 21, 10
+Player 10 discards 21
+Player 10 draws 20
+Player 10 hand: 23, 29, 20, 10
+Player 10 discards 20
+Player 10 draws 11
+Player 10 hand: 23, 29, 11, 10
+Player 10 discards 11
+Player 10 draws 39
+Player 10 hand: 23, 29, 39, 10
+Player 10 discards 39
+Player 10 draws 14
+Player 10 hand: 23, 29, 14, 10
+Player 10 discards 14
+Player 10 draws 20
+Player 10 hand: 23, 29, 20, 10
+Player 10 discards 29
+Player 10 draws 23
+Player 10 hand: 23, 23, 20, 10
+Player 10 discards 20
+Player 10 draws 5
+Player 10 hand: 23, 23, 5, 10
+Player 10 discards 23
+Player 10 draws 26
+Player 10 hand: 23, 26, 5, 10
+Player 10 discards 26
+Player 10 draws 19
+Player 10 hand: 23, 19, 5, 10
+Player 10 discards 19
+Player 10 draws 49
+Player 10 hand: 23, 49, 5, 10
+Player 10 discards 23
+Player 10 draws 9
+Player 10 hand: 9, 49, 5, 10
+Player 10 discards 49
+Player 10 draws 39
+Player 10 hand: 9, 39, 5, 10
+Player 10 discards 39
+Player 10 draws 28
+Player 10 hand: 9, 28, 5, 10
+Player 10 discards 28
+Player 10 draws 0
+Player 10 hand: 9, 0, 5, 10
+Player 10 discards 5
+Player 10 draws 49
+Player 10 hand: 9, 0, 49, 10

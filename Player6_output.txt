@@ -1,64 +1,124 @@
-Player 6 initial hand: 1, 2, 2, 4
-Player 6 discards 2
-Player 6 draws 6
-Player 6 hand: 1, 2, 6, 4
-Player 6 discards 4
-Player 6 draws 6
-Player 6 hand: 1, 2, 6, 6
-Player 6 discards 2
+Player 6 initial hand: 19, 37, 17, 45
+Player 6 discards 17
+Player 6 draws 12
+Player 6 hand: 19, 37, 12, 45
+Player 6 discards 19
+Player 6 draws 42
+Player 6 hand: 42, 37, 12, 45
+Player 6 discards 42
+Player 6 draws 9
+Player 6 hand: 9, 37, 12, 45
+Player 6 discards 9
 Player 6 draws 32
-Player 6 hand: 1, 32, 6, 6
-Player 6 discards 1
-Player 6 draws 212
-Player 6 hand: 212, 32, 6, 6
-Player 6 discards 212
-Player 6 draws 32
-Player 6 hand: 32, 32, 6, 6
+Player 6 hand: 32, 37, 12, 45
+Player 6 discards 12
+Player 6 draws 23
+Player 6 hand: 32, 37, 23, 45
+Player 6 discards 45
+Player 6 draws 18
+Player 6 hand: 32, 37, 23, 18
 Player 6 discards 32
-Player 6 draws 2
-Player 6 hand: 2, 32, 6, 6
-Player 6 discards 32
-Player 6 draws 6
-Player 6 hand: 2, 6, 6, 6
-Player 6 discards 2
 Player 6 draws 8
-Player 6 hand: 8, 6, 6, 6
+Player 6 hand: 8, 37, 23, 18
+Player 6 discards 23
+Player 6 draws 23
+Player 6 hand: 8, 37, 23, 18
+Player 6 discards 37
+Player 6 draws 10
+Player 6 hand: 8, 10, 23, 18
+Player 6 discards 18
+Player 6 draws 14
+Player 6 hand: 8, 10, 23, 14
+Player 6 discards 23
+Player 6 draws 8
+Player 6 hand: 8, 10, 8, 14
 Player 6 discards 8
-Player 6 draws 34
-Player 6 hand: 34, 6, 6, 6
-Player 6 discards 34
-Player 6 draws 63
-Player 6 hand: 63, 6, 6, 6
-Player 6 discards 63
-Player 6 draws 13
-Player 6 hand: 13, 6, 6, 6
-Player 6 discards 13
+Player 6 draws 20
+Player 6 hand: 20, 10, 8, 14
+Player 6 discards 8
+Player 6 draws 8
+Player 6 hand: 20, 10, 8, 14
+Player 6 discards 10
+Player 6 draws 11
+Player 6 hand: 20, 11, 8, 14
+Player 6 discards 8
+Player 6 draws 21
+Player 6 hand: 20, 11, 21, 14
+Player 6 discards 21
+Player 6 draws 39
+Player 6 hand: 20, 11, 39, 14
+Player 6 discards 20
+Player 6 draws 20
+Player 6 hand: 20, 11, 39, 14
+Player 6 discards 11
 Player 6 draws 5
-Player 6 hand: 5, 6, 6, 6
+Player 6 hand: 20, 5, 39, 14
+Player 6 discards 39
+Player 6 draws 23
+Player 6 hand: 20, 5, 23, 14
+Player 6 discards 14
+Player 6 draws 26
+Player 6 hand: 20, 5, 23, 26
+Player 6 discards 20
+Player 6 draws 39
+Player 6 hand: 39, 5, 23, 26
+Player 6 discards 23
+Player 6 draws 46
+Player 6 hand: 39, 5, 46, 26
 Player 6 discards 5
-Player 6 draws 3
-Player 6 hand: 3, 6, 6, 6
-Player 6 discards 3
+Player 6 draws 19
+Player 6 hand: 39, 19, 46, 26
+Player 6 discards 26
+Player 6 draws 49
+Player 6 hand: 39, 19, 46, 49
+Player 6 discards 19
+Player 6 draws 9
+Player 6 hand: 39, 9, 46, 49
+Player 6 discards 49
+Player 6 draws 31
+Player 6 hand: 39, 9, 46, 31
+Player 6 discards 9
+Player 6 draws 0
+Player 6 hand: 39, 0, 46, 31
+Player 6 discards 39
+Player 6 draws 28
+Player 6 hand: 28, 0, 46, 31
+Player 6 discards 28
+Player 6 draws 10
+Player 6 hand: 10, 0, 46, 31
+Player 6 discards 0
+Player 6 draws 49
+Player 6 hand: 10, 49, 46, 31
+Player 6 discards 49
 Player 6 draws 7
-Player 6 hand: 7, 6, 6, 6
-Player 6 discards 7
-Player 6 draws 7
-Player 6 hand: 7, 6, 6, 6
-Player 6 discards 7
-Player 6 draws 1
-Player 6 hand: 1, 6, 6, 6
-Player 6 discards 1
-Player 6 draws 321
-Player 6 hand: 321, 6, 6, 6
-Player 6 discards 321
-Player 6 draws 34
-Player 6 hand: 34, 6, 6, 6
-Player 6 discards 34
-Player 6 draws 243
-Player 6 hand: 243, 6, 6, 6
-Player 6 discards 243
+Player 6 hand: 10, 7, 46, 31
+Player 6 discards 10
+Player 6 draws 44
+Player 6 hand: 44, 7, 46, 31
+Player 6 discards 44
+Player 6 draws 32
+Player 6 hand: 32, 7, 46, 31
+Player 6 discards 32
+Player 6 draws 23
+Player 6 hand: 23, 7, 46, 31
+Player 6 discards 46
+Player 6 draws 10
+Player 6 hand: 23, 7, 10, 31
+Player 6 discards 23
 Player 6 draws 5
-Player 6 hand: 5, 6, 6, 6
-Player 6 discards 5
-Player 6 draws 6
-Player 6 hand: 6, 6, 6, 6
+Player 6 hand: 5, 7, 10, 31
+Player 6 discards 7
+Player 6 draws 42
+Player 6 hand: 5, 42, 10, 31
+Player 6 discards 10
+Player 6 draws 48
+Player 6 hand: 5, 42, 48, 31
+Player 6 discards 42
+Player 6 draws 37
+Player 6 hand: 5, 37, 48, 31
+Player 6 discards 48
+Player 6 draws 42
+Player 6 hand: 5, 37, 42, 31
+Player 6 discards 37
+Player 6 draws 43
+Player 6 hand: 5, 43, 42, 31

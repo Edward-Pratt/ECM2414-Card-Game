@@ -82,4 +82,10 @@ public class CardDeck {
     public int getDeckNumber(){
         return this.deckNumber;
     }
+
+    public void writeFile(String s, String s1) {
+        FileEditor fileEditor = new FileEditor();
+        fileEditor.createFile(s);
+        fileEditor.writeFile(s, s1);
+    }
 }

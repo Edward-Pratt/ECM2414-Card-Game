@@ -64,6 +64,7 @@ public class CardGame{
             if(player.hasWon()){
                 System.out.println("Player " + player.getPlayerNumber() + " has won the game!");
                 gameWon = true;
+
             }
         }
         if(!gameWon){

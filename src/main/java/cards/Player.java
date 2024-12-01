@@ -1,5 +1,7 @@
 package cards;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 
 public class Player extends Thread {
@@ -79,9 +81,19 @@ public class Player extends Thread {
                 if (hasWon()) {
                     System.out.printf("Player %d has won the game!%n", this.playerNumber);
                     CardGame.setGameWon(true);
+
                 } else {
                     takeTurn();
                 }
             }
         }
+        ArrayList<Integer> deckContents = new ArrayList<>(
+                rightDeck.getAllCards().stream()
+                        .map(Card::getValue) // Converts each card to its string representation
+                        .toList()
+        );
+
+
+
+        rightDeck.writeFile("Deck" + rightDeck.getDeckNumber() + "_output.txt", "Deck:" + rightDeck.getDeckNumber() + " has these cards:" + deckContents);
     }}

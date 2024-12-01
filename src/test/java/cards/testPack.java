@@ -23,7 +23,7 @@ public class testPack {
         this.packFileName = new File("testPack.txt");
         int cardValue;
         this.cardsPack = new LinkedList<>();
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 24; i++) {
             cardValue = (int) Math.round(Math.random()*100);
             fe.writeFile(packFileName.getName(), String.valueOf(cardValue));
             cardsPack.add(new Card(cardValue));
@@ -33,11 +33,10 @@ public class testPack {
     @Test
     @DisplayName("Reading Pack File")
     void readTestPack() {
-        FileEditor fe = new FileEditor();
         Queue<Card> testPack = new LinkedList<>();
-        String[] fileCards = fe.readFile(this.packFileName.getName());
-        for (String cardNumber : fileCards)
-            testPack.add(new Card(Integer.parseInt(cardNumber)));
+        Queue<Card> fileCards = Pack.readPack(packFileName.getName(), 3);
+        for (Card card : fileCards)
+            testPack.add(card);
         Assertions.assertArrayEquals(testPack.toArray(), cardsPack.toArray());
     }
 

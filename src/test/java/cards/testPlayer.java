@@ -48,15 +48,29 @@ public class testPlayer {
             this.player.addCard(i, testCard);
             playerDeck[i] = testCard;
         }
-
         Assertions.assertArrayEquals(this.player.getAllCards(), playerDeck);
     }
     
     @Test
     @DisplayName("Player wins")
     void playerWinsTest() {
-        Player player1 = new Player(1, this.testLeftDeck, this.testRightDeck);
-        Player player2 = new
+        Player testPlayer1 = new Player(1, this.testLeftDeck, this.testRightDeck);
+        Player testPlayer2 = new Player(2, this.testLeftDeck, this.testRightDeck);
+        Player testPlayer3 = new Player(3, this.testLeftDeck, this.testRightDeck);
+        Card testCard;
+        for (int i = 0; i < 4; i++) {
+            testCard = new Card(1);
+            testPlayer1.addCard(i, testCard);
+
+            testCard = new Card(5);
+            testPlayer1.addCard(i, testCard);
+
+            testCard = new Card((int) Math.round(Math.random()))
+            testPlayer1.addCard(i, testCard);
+        }
+        Assertions.assertEquals(true, testPlayer1.hasWon());
+        Assertions.assertEquals(false, testPlayer2.hasWon());
+        Assertions.assertEquals(false, testPlayer3.hasWon());
     }
 
     @Test

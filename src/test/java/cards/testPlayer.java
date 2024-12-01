@@ -47,9 +47,19 @@ public class testPlayer {
             Card testCard = new Card((int) Math.round(Math.random()*100));
             this.player.addCard(i, testCard);
         }
+        
         Assertions.assertArrayEquals(this.player.getAllCards(), playerDeck);
     }
     
     @Test
-    @DisplayName
+    @DisplayName("Player wins")
+    void playerWinsTest() {
+
+    }
+
+    @Test
+    @DisplayName("Players Turn")
+    void playerTakesTurn() {
+
+    }
 }

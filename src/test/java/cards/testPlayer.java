@@ -65,7 +65,7 @@ public class testPlayer {
             testCard = new Card(5);
             testPlayer1.addCard(i, testCard);
 
-            testCard = new Card((int) Math.round(Math.random()))
+            testCard = new Card((int) Math.round(Math.random()));
             testPlayer1.addCard(i, testCard);
         }
         Assertions.assertEquals(true, testPlayer1.hasWon());

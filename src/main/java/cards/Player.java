@@ -6,13 +6,15 @@ public class Player extends Thread {
     private final int playerNumber;
     private final CardDeck leftDeck;
     private final CardDeck rightDeck;
-
+    FileEditor fileEditor = new FileEditor();
     private Card[] cards = new Card[4];
+
 
     public Player(int playerNumber, CardDeck leftDeck, CardDeck rightDeck) {
         this.playerNumber = playerNumber;
         this.leftDeck = leftDeck;
         this.rightDeck = rightDeck;
+        fileEditor.createFile("Player" + this.playerNumber + "_output.txt");
 
     }
 
@@ -32,7 +34,7 @@ public class Player extends Thread {
         return this.playerNumber;
     }
 
-    public boolean hasWon(){
+    public synchronized boolean hasWon(){
         Card firstCard = this.cards[0];
         for (Card card: cards){
             if (firstCard.getValue() != card.getValue()){
@@ -48,36 +50,44 @@ public class Player extends Thread {
         Card removedCard;
         int randomNumber;
         do {
-            randomNumber = random.nextInt(0, 3);
+            randomNumber = random.nextInt(4);
             removedCard = this.cards[randomNumber];
         } while (removedCard.getValue() == this.playerNumber);
         rightDeck.addCard(this.cards[randomNumber]);
+        fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + " discards " + this.cards[randomNumber].getValue());
         this.cards[randomNumber] = leftDeck.removeCard();
+        fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + " draws " + this.cards[randomNumber].getValue());
 
 
     }
 
-    public synchronized void takeTurn() {
-        Random random = new Random();
-        boolean isPreferredDenomination = true;
-        Card possibleDiscard = null;
-        int randomNumber = 0;
+    public void takeTurn() {
         if(this.rightDeck.getAllCards().size()<5 && this.leftDeck.getAllCards().size()>3){
             drawAndDiscard();
+            fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + " hand: " + this.cards[0].getValue() + ", " + this.cards[1].getValue() + ", " + this.cards[2].getValue() + ", " + this.cards[3].getValue());
         }
 
 
 
     }
 
-    @Override
     public void run() {
-        while (!CardGame.isGameWon()) {
-            takeTurn();
-            if(hasWon()){
-                CardGame.setGameWon(true);
-                //System.out.printf("Player %d has won the game!%n", this.playerNumber);
+
+        fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + " initial hand: " + this.cards[0].getValue() + ", " + this.cards[1].getValue() + ", " + this.cards[2].getValue() + ", " + this.cards[3].getValue());
+        while (!CardGame.isGameWon() && !Thread.interrupted()) {
+            synchronized (this) {
+                if (hasWon()) {
+                    System.out.printf("Player %d has won the game!%n", this.playerNumber);
+                    CardGame.setGameWon(true);
+                } else {
+                    takeTurn();
+                }
+            }
+
+            try {
+                Thread.sleep(10); // Allow other threads time to execute
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt(); // Preserve the interrupt status
             }
         }
-    }
-}
+    }}

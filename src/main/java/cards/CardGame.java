@@ -27,7 +27,6 @@ public class CardGame{
             PackofCards = Pack.readPack(packFile, numPlayers);
             setupGame(numPlayers);
             playGame();
-            commandReader.close();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
@@ -44,7 +43,7 @@ public class CardGame{
         for (int i = 0; i < numPlayers; i++){
             CardDeck leftDeck = decks[((i-1) + numPlayers) % numPlayers];
             CardDeck rightDeck = decks[(i+1) % numPlayers];
-            players.add(new Player(i, leftDeck, rightDeck));
+            players.add(new Player(i+1, leftDeck, rightDeck));
         }
 
         for(int i=0; i<4; i++) {
@@ -60,6 +59,7 @@ public class CardGame{
         }
 
 
+
     }
     private static void playGame() {
         for (Player player: players){
@@ -70,8 +70,7 @@ public class CardGame{
         }
         if(!gameWon){
             for (Player player: players){
-                Thread playerThread = new Thread(player);
-                playerThread.start();
+                player.start();
             }
         }
     }

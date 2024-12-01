@@ -33,6 +33,9 @@ public class FileEditor {
     public void createFile(String fileName){
         try {
             File myObj = new File(fileName);
+            if(myObj.exists()){
+                myObj.delete();
+            }
             if (myObj.createNewFile()) {
                 System.out.println("File created: " + myObj.getName());
             } else {
@@ -62,7 +65,7 @@ public class FileEditor {
     public void writeFile(String fileName, String fileContent){
         try{
             File file = new File(fileName);
-            BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
             writer.write(fileContent);
             writer.newLine();
             writer.close();

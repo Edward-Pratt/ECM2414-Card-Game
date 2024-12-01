@@ -43,18 +43,20 @@ public class testPlayer {
     void multiplePlayerCards() {
         this.player = new Player(this.playerNumber, this.testLeftDeck, this.testRightDeck);
         Card[] playerDeck = new Card[4];
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 4; i++) {
             Card testCard = new Card((int) Math.round(Math.random()*100));
             this.player.addCard(i, testCard);
+            playerDeck[i] = testCard;
         }
-        
+
         Assertions.assertArrayEquals(this.player.getAllCards(), playerDeck);
     }
     
     @Test
     @DisplayName("Player wins")
     void playerWinsTest() {
-
+        Player player1 = new Player(1, this.testLeftDeck, this.testRightDeck);
+        Player player2 = new
     }
 
     @Test

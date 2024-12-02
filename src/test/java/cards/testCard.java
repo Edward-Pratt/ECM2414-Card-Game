@@ -33,6 +33,6 @@ public class testCard {
     @Test
     @DisplayName("Card Number")
     void testCardNumber(){
-        Assertions.assertEquals(this.card.getValue(), testCardNumber);
+        Assertions.assertEquals(this.card.getValue(), testCardNumber, "The card value should equal the original number of the card.");
     }
 }

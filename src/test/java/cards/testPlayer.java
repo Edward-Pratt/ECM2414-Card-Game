@@ -42,7 +42,7 @@ public class testPlayer {
     void testPlayerNumber() {
         int testPlayerNumber = (int) (Math.round(Math.random() * 100));
         this.player = new Player(testPlayerNumber, this.testLeftDeck, this.testRightDeck);
-        Assertions.assertEquals(player.getPlayerNumber(), testPlayerNumber);
+        Assertions.assertEquals(player.getPlayerNumber(), testPlayerNumber, "The player's numbers should equal to the original test number.");
     }
 
     @Test
@@ -51,7 +51,7 @@ public class testPlayer {
         Card testCard = new Card((int) Math.round(Math.random()*100));
         this.player = new Player(this.playerNumber, this.testLeftDeck, this.testRightDeck);
         this.player.addCard(this.player.getAllCards().length - 1, testCard);
-        Assertions.assertEquals(this.player.getCard(player.getAllCards().length - 1), testCard);
+        Assertions.assertEquals(this.player.getCard(player.getAllCards().length - 1), testCard, "The player should have received a card.");
     }
 
     @Test
@@ -64,7 +64,7 @@ public class testPlayer {
             this.player.addCard(i, testCard);
             playerDeck[i] = testCard;
         }
-        Assertions.assertArrayEquals(this.player.getAllCards(), playerDeck);
+        Assertions.assertArrayEquals(this.player.getAllCards(), playerDeck, "The player should have four cards in their hand currently.");
     }
     
     @Test
@@ -84,9 +84,9 @@ public class testPlayer {
             testCard = new Card((int) Math.round(Math.random()*100) * i);
             testPlayer3.addCard(i, testCard);
         }
-        Assertions.assertEquals(true, testPlayer1.hasWon());
-        Assertions.assertEquals(true, testPlayer2.hasWon());
-        Assertions.assertEquals(false, testPlayer3.hasWon());
+        Assertions.assertEquals(true, testPlayer1.hasWon(), "This player has a matching set of 1s.");
+        Assertions.assertEquals(true, testPlayer2.hasWon(), "This player has a matching set of 5s.");
+        Assertions.assertEquals(false, testPlayer3.hasWon(), "This player does not have a matching set of cards.");
     }
 
     @Test
@@ -102,6 +102,6 @@ public class testPlayer {
         }
         this.player = new Player(this.playerNumber, tempLeftDeck, tempRightDeck);
         this.player.takeTurn();
-        Assertions.assertEquals(4, this.player.getAllCards().length);
+        Assertions.assertEquals(4, this.player.getAllCards().length, "The player should have a total of four cards after taking a card from the deck and removing a card from their hand.");
     }
 }

@@ -28,7 +28,6 @@ public class FileEditor {
      * </p>
      * 
      * @param fileName the name of the file
-     * @throws IOException if an I/O occurs during the creation of a file
      */
     public void createFile(String fileName){
         try {
@@ -55,8 +54,6 @@ public class FileEditor {
      * 
      * @param fileName    the name of the file to write to
      * @param fileContent the content to be written to the file
-     * @throws FileNotFoundException if the specified file cannot be found
-     * @throws IOException           if an I/O error occurs during writing
      */
     public void writeFile(String fileName, String fileContent){
         try{
@@ -82,8 +79,6 @@ public class FileEditor {
      * </p>
      * 
      * @param fileName the name of the file
-     * @throws FileNotFoundException if the specified file cannot be found
-     * @throws IOException if an I/O error occurs during reading
      * @return all the data retrieved from the file
      */
     public String[] readFile(String fileName){

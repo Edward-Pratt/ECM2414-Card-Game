@@ -57,7 +57,7 @@ public class testPack {
             testPackContents.add(testPack.remove().getValue());
             filePackContents.add(fileCards.remove().getValue());
         }
-        Assertions.assertArrayEquals(testPackContents.toArray(), filePackContents.toArray());
+        Assertions.assertArrayEquals(testPackContents.toArray(), filePackContents.toArray(), "The array from the pack file should equal to the original array of cards.");
     }
 
     @Test
@@ -75,7 +75,7 @@ public class testPack {
              testPack2.add(testCard);
          }
 
-        Assertions.assertEquals(true, Pack.validatePack(1, testPack1));
-        Assertions.assertEquals(false, Pack.validatePack(2, testPack2));
+        Assertions.assertEquals(true, Pack.validatePack(1, testPack1), "The size of this pack is a multiple of 8.");
+        Assertions.assertEquals(false, Pack.validatePack(2, testPack2), "The size of this pack is not a multiple of 8.");
     }
 }

@@ -35,6 +35,6 @@ public class testCardDeck {
             cardDeck.addCard(testCard);
         }
         Card[] actualDeck = cardDeck.getAllCards().toArray(new Card[0]);
-        Assertions.assertArrayEquals(expectedDeck, actualDeck);
+        Assertions.assertArrayEquals(expectedDeck, actualDeck, "The decks should equal.");
     }
 }

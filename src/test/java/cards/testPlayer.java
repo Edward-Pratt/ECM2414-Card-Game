@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Test;
  * a valid turn by taking a card from their left and placing a card on their
  * right.
  * 
- * @author Edward Pratt and Sandy Hay
+ * @author Edward Pratt & Sandy Hay
  * @version 1.0
  */
 public class testPlayer {

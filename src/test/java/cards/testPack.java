@@ -17,7 +17,7 @@ import org.junit.jupiter.api.Test;
  * file and be able to validate whether a class has the suitable amount of cards
  * of 8n.
  * 
- * @author Edward Pratt and Sandy Hay
+ * @author Edward Pratt & Sandy Hay
  * @version 1.0
  */
 public class testPack {

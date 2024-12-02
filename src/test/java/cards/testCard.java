@@ -9,6 +9,9 @@ import org.junit.jupiter.api.Test;
  * The test class for the Card class. This class tests all the methods within
  * the Card class.
  * This class confirms if a card can be correctly generated or not.
+ * 
+ * @author Edward Pratt & Sandy Hay
+ * @version 1.0
  */
 public class testCard {
 

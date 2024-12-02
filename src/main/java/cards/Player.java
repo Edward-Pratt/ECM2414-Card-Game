@@ -1,12 +1,12 @@
 package cards;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Random;
 
 /**
  * Player class that represents a player in the card game.
- * This class has a run method for threading, and methods for adding and getting cards, checking if the player has won, and allowing them to interact with decks.
+ * This class has a run method for threading, and methods for adding and getting cards, 
+ * checking if the player has won, and allowing them to interact with decks.
  *
  * @author Edward Pratt and Alexander Hay
  * @version 1.0
@@ -20,6 +20,7 @@ public class Player extends Thread {
 
     /**
      * Constructor for the Player class.
+     * 
      * @param playerNumber The number of the player being created.
      * @param leftDeck The deck that will be drawn from.
      * @param rightDeck The deck that will be discarded to.
@@ -34,6 +35,7 @@ public class Player extends Thread {
 
     /**
      * Method to add a card to the player's hand.
+     * 
      * @param location The location in the hand that the card will be added to 1-4.
      * @param newCard The card that will be added to the hand.
      */
@@ -43,6 +45,7 @@ public class Player extends Thread {
 
     /**
      * Method to get a card from the player's hand.
+     * 
      * @param location The location in the hand that the card will be retrieved from 1-4.
      * @return The card at the specified location.
      */
@@ -52,6 +55,7 @@ public class Player extends Thread {
 
     /**
      * Method to get all cards from the player's hand.
+     * 
      * @return An array of all the cards in the player's hand.
      */
     public synchronized Card[] getAllCards(){
@@ -60,6 +64,7 @@ public class Player extends Thread {
 
     /**
      * Method to get the player's number.
+     * 
      * @return The player's number.
      */
     public int getPlayerNumber(){
@@ -68,6 +73,7 @@ public class Player extends Thread {
 
     /**
      * Method to check if the player has won the game.
+     * 
      * @return True if the player has won, false if they have not.
      */
     public synchronized boolean hasWon(){

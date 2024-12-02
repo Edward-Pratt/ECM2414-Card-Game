@@ -6,7 +6,8 @@ import java.util.Scanner;
 
 
 /**
- * The CardGame class. This class is the main class for the card game. It handles a setup of the game for a number of players, and then initialises the threads of players.
+ * The CardGame class. This class is the main class for the card game. It handles a setup
+ * of the game for a number of players, and then initialises the threads of players.
  *
  * @author Edward Pratt & Sandy Hay
  * @version 1.0
@@ -64,7 +65,7 @@ public class CardGame{
 
 
 
-    public static void setupGame(int numPlayers){
+    private static void setupGame(int numPlayers){
         CardDeck[] decks = new CardDeck[numPlayers];
         for (int i = 0; i < numPlayers; i++){
             decks[i] = new CardDeck(i);
@@ -90,6 +91,7 @@ public class CardGame{
 
 
     }
+
     private static void playGame() {
         for (Player player: players){
             if(player.hasWon()){

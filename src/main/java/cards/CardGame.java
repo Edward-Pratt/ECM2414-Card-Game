@@ -13,8 +13,8 @@ import java.util.Scanner;
  * @version 1.0
  */
 public class CardGame{
-    private static final ArrayList<Player> players = new ArrayList<>();
-    private static Queue<Card> PackofCards;
+    static final ArrayList<Player> players = new ArrayList<>();
+    static Queue<Card> PackofCards;
     private static volatile boolean gameWon = false;
 
 
@@ -44,6 +44,9 @@ public class CardGame{
                 Scanner commandReader = new Scanner(System.in);
                 System.out.println("Welcome to the card game! Please enter the number of players: ");
                 numPlayers = commandReader.nextInt();
+                if (numPlayers < 0){
+                    throw new RuntimeException();
+                }
                 System.out.println("Please enter the directory of your pack file: ");
                 packFile = commandReader.next();
 
@@ -65,7 +68,7 @@ public class CardGame{
 
 
 
-    private static void setupGame(int numPlayers){
+    static void setupGame(int numPlayers){
         CardDeck[] decks = new CardDeck[numPlayers];
         for (int i = 0; i < numPlayers; i++){
             decks[i] = new CardDeck(i);
@@ -92,7 +95,7 @@ public class CardGame{
 
     }
 
-    private static void playGame() {
+    static void playGame() {
         for (Player player: players){
             if(player.hasWon()){
                 System.out.println("Player " + player.getPlayerNumber() + " has won the game!");

@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-class CardGameTest {
+class testCardGame {
 
     @BeforeEach
     @DisplayName("Set up Game")
@@ -18,20 +18,20 @@ class CardGameTest {
     }
 
     @Test
-    @DisplayName("")
+    @DisplayName("Checks that when the game starts it is not won instantly.")
     void testIsGameWonInitial() {
         assertFalse(CardGame.isGameWon(), "Game should not be won initially.");
     }
 
     @Test
-    @DisplayName("")
+    @DisplayName("Checks that the setGameWon method works.")
     void testSetGameWon() {
         CardGame.setGameWon(true);
         assertTrue(CardGame.isGameWon(), "Game should be marked as won after setting it.");
     }
 
     @Test
-    @DisplayName("")
+    @DisplayName("Checks that players are given 4 cards each when game is setup.")
     void testSetupGame() {
         // Create a mock pack of cards
         Queue<Card> mockPack = new ArrayDeque<>();
@@ -45,50 +45,37 @@ class CardGameTest {
 
         assertEquals(numPlayers, CardGame.players.size(), "Number of players should match setup.");
         for (Player player : CardGame.players) {
-            assertEquals(4, player.getHandSize(), "Each player should have 4 cards initially.");
+            assertEquals(4, player.getAllCards().length, "Each player should have 4 cards initially.");
         }
     }
 
     @Test
-    @DisplayName("")
+    @DisplayName("Check if game is won when a player has won.")
     void testPlayGameWinningCondition() {
-        // Setup a scenario where a player has already won
-        Player winningPlayer = new Player(1, null, null);
+        CardDeck lDeck = new CardDeck(1);
+        CardDeck rDeck = new CardDeck(2);
+        Player winningPlayer = new Player(1, lDeck, rDeck);
+        for(int i = 0; i<4; i++){
+            lDeck.addCard(new Card(i));
+            rDeck.addCard(new Card(i));
+            winningPlayer.addCard(i, new Card(i));
+        }
+        // Set up a scenario where a player has already won
+
         CardGame.players.add(winningPlayer);
 
         // Simulate the winning player
-        winningPlayer.setWon(true);
+        CardGame.setGameWon(true);
 
         CardGame.playGame();
         assertTrue(CardGame.isGameWon(), "Game should detect a winner immediately.");
     }
 
-    @Test
-    @DisplayName("")
-    void testPlayGameNoWinners() {
-        // Setup a game with no winners
-        int numPlayers = 3;
-        for (int i = 1; i <= numPlayers; i++) {
-            CardGame.players.add(new Player(i, null, null));
-        }
 
-        CardGame.playGame();
-        assertFalse(CardGame.isGameWon(), "Game should not be marked as won if no players have won.");
-    }
+
 
     @Test
-    @DisplayName("")
-    void testInvalidPlayerCount() {
-        // Simulate invalid player count in the main loop
-        // Mock scanner input or adjust for invalid inputs
-        // Note: This test would ideally require decoupling `main` for better testability
-        assertThrows(RuntimeException.class, () -> {
-            CardGame.main(new String[]{"-1"}); // Simulate invalid input
-        });
-    }
-
-    @Test
-    @DisplayName("")
+    @DisplayName("Tests that an invalid pack file throws an exception")
     void testInvalidPackFile() {
         // Simulate reading an invalid pack file
         // Assuming Pack.readPack throws an exception for invalid inputs

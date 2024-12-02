@@ -87,7 +87,6 @@ public class Player extends Thread {
         return true;
     }
 
-
     /**
      * Method to draw a card from the left deck and discard a card 
      * to the right deck atomically.
@@ -116,7 +115,15 @@ public class Player extends Thread {
         }
     }
 
-
+    /**
+     * Method that operates the main functionality for the player,
+     * checking if the game has been won while synchronously maintaining
+     * the threads of the players'
+     * <p>
+     * It also maintains each players turn of taking and discard a card
+     * and logging the data to the player's respective file.
+     * </p>
+     */
     public void run() {
 
         fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + " initial hand: " + this.cards[0].getValue() + ", " + this.cards[1].getValue() + ", " + this.cards[2].getValue() + ", " + this.cards[3].getValue());
@@ -135,7 +142,6 @@ public class Player extends Thread {
                         .map(Card::getValue) // Converts each card to its string representation
                         .toList()
         );
-
 
         fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + "exits");
         fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + " final hand" + this.cards[0].getValue() + ", " + this.cards[1].getValue() + ", " + this.cards[2].getValue() + ", " + this.cards[3].getValue());

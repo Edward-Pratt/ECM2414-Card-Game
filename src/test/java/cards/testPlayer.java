@@ -8,10 +8,13 @@ import org.junit.jupiter.api.Test;
 /**
  * The test class for the Player class. This class tests all the methods
  * within the Player class.
- * This class checks if player can be assigned an identity and add/remove
+ * This class checks if player can be assigned an identifier and add/remove
  * cards from their deck. It also checks if the player class can do make
  * a valid turn by taking a card from their left and placing a card on their
  * right.
+ * 
+ * @author Edward Pratt and Sandy Hay
+ * @version 1.0
  */
 public class testPlayer {
 

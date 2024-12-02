@@ -11,6 +11,9 @@ import org.junit.jupiter.api.Test;
  * within the FileEditor.
  * This is to confirm that all the methods that create files and read/write
  * from files work as intended.
+ * 
+ * @author Edward Pratt and Sandy Hay
+ * @version 1.0
  */
 public class testFileEditor {
 

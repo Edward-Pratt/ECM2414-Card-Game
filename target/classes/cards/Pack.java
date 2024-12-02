@@ -11,10 +11,9 @@ import java.util.stream.Stream;
  * retrieves 8n number of cards, for where n is the number of players
  * participating in the game.
  * 
- * @author Edward Pratt and Sandy Hay
+ * @author Edward Pratt & Sandy Hay
  * @version 1.0
  */
-
 abstract class Pack {
     private static final Queue<Card> pack = new LinkedList<>();
 

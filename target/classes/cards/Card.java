@@ -4,10 +4,9 @@ package cards;
  * Card class. This class manages all the cards that are
  * played in CardGame and handles the values for each card
  * 
- * @author Edward Pratt, Alexander Hay
+ * @author Edward Pratt & Alexander Hay
  * @version 1.0
  */
-
 public class Card {
 
     private final int value;

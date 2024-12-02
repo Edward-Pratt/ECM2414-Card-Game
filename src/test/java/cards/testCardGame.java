@@ -12,12 +12,21 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 /**
+ * The test class for the CardGame class. Tests if the methods
+ * that run the main game work as intended.
+ * This is to test if the main functionality of the game works and to
+ * simulate how the game should play out.
  * 
+ * @author Edward Pratt & Sandy Hay
+ * @version 1.0
  */
 class testCardGame {
 
     /**
-     * 
+     * Custom setup for the JUnit Jupiter test.
+     * This method sets up a game, where it resets the game
+     * so that no player has won and clears all the players
+     * currently in the game.
      */
     @BeforeEach
     @DisplayName("Set up Game")

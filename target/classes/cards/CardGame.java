@@ -37,8 +37,13 @@ public class CardGame{
     }
 
     /**
+     * The Main method for the Card Game.
+     * <p>
+     * Takes in the user's inputs for the number of players
+     * and the file location for the pack then sets up the
+     * game.
      * 
-     * @param args
+     * @param args command-line inputs
      */
     public static void main(String[] args) {
         int numPlayers;
@@ -57,9 +62,7 @@ public class CardGame{
                 if (packFile.startsWith("\"") && packFile.endsWith("\"")) {
                     packFile = packFile.substring(1, packFile.length() - 1);
                 }
-
                 PackofCards = Pack.readPack(packFile, numPlayers);
-
             } catch (RuntimeException e) {
                 {
                     System.out.println("Invalid Number of Players or Deck. Please try again.");
@@ -74,8 +77,17 @@ public class CardGame{
         playGame();
     }
 
-
-
+    /**
+     * Method that set-ups the game
+     * <p>
+     * Receives the number of players in the game, then gives 4 cards to
+     * each player in the game, then transfers the remaining cards to
+     * each of the decks, respective to the amount of players in the
+     * game.
+     * </p>
+     * 
+     * @param numPlayers the number of players in the game
+     */
     static void setupGame(int numPlayers){
         CardDeck[] decks = new CardDeck[numPlayers];
         for (int i = 0; i < numPlayers; i++){
@@ -100,6 +112,13 @@ public class CardGame{
         }
     }
 
+    /**
+     * Method that plays the card game.
+     * <p>
+     * Checks if one of the players has won the game, if so
+     * end the game, else, continues the game with the next
+     * play synchronously starting their turn.
+     */
     static void playGame() {
         for (Player player: players){
             if(player.hasWon()){

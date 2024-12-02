@@ -143,7 +143,7 @@ public class Player extends Thread {
                         .toList()
         );
 
-        fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + "exits");
+        fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + " exits");
         fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + " final hand" + this.cards[0].getValue() + ", " + this.cards[1].getValue() + ", " + this.cards[2].getValue() + ", " + this.cards[3].getValue());
         rightDeck.writeFile("Deck" + rightDeck.getDeckNumber() + "_output.txt", "Deck:" + rightDeck.getDeckNumber() + " has these cards:" + deckContents);
     }

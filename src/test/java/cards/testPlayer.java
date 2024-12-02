@@ -42,7 +42,7 @@ public class testPlayer {
     void testPlayerNumber() {
         int testPlayerNumber = (int) (Math.round(Math.random() * 100));
         this.player = new Player(testPlayerNumber, this.testLeftDeck, this.testRightDeck);
-        Assertions.assertEquals(player.getPlayerNumber(), testPlayerNumber, "The player's numbers should equal to the original test number.");
+        Assertions.assertEquals(player.getPlayerNumber(), testPlayerNumber, "The player's numbers should match the original test number.");
     }
 
     @Test

@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
+/**
+ * Player class that represents a player in the card game.
+ * This class has a run method for threading, and methods for adding and getting cards, checking if the player has won, and allowing them to interact with decks.
+ *
+ * @author Edward Pratt and Alexander Hay
+ * @version 1.0
+ */
 public class Player extends Thread {
     private final int playerNumber;
     private final CardDeck leftDeck;
@@ -11,7 +18,12 @@ public class Player extends Thread {
     FileEditor fileEditor = new FileEditor();
     private Card[] cards = new Card[4];
 
-
+    /**
+     * Constructor for the Player class.
+     * @param playerNumber The number of the player being created.
+     * @param leftDeck The deck that will be drawn from.
+     * @param rightDeck The deck that will be discarded to.
+     */
     public Player(int playerNumber, CardDeck leftDeck, CardDeck rightDeck) {
         this.playerNumber = playerNumber;
         this.leftDeck = leftDeck;
@@ -20,22 +32,44 @@ public class Player extends Thread {
 
     }
 
+    /**
+     * Method to add a card to the player's hand.
+     * @param location The location in the hand that the card will be added to 1-4.
+     * @param newCard The card that will be added to the hand.
+     */
     public synchronized void addCard (int location, Card newCard){
         this.cards[location] = newCard;
     }
 
+    /**
+     * Method to get a card from the player's hand.
+     * @param location The location in the hand that the card will be retrieved from 1-4.
+     * @return The card at the specified location.
+     */
     public synchronized Card getCard(int location){
         return this.cards[location];
     }
 
+    /**
+     * Method to get all cards from the player's hand.
+     * @return An array of all the cards in the player's hand.
+     */
     public synchronized Card[] getAllCards(){
         return this.cards;
     }
 
+    /**
+     * Method to get the player's number.
+     * @return The player's number.
+     */
     public int getPlayerNumber(){
         return this.playerNumber;
     }
 
+    /**
+     * Method to check if the player has won the game.
+     * @return True if the player has won, false if they have not.
+     */
     public synchronized boolean hasWon(){
         Card firstCard = this.cards[0];
         for (Card card: cards){
@@ -47,6 +81,10 @@ public class Player extends Thread {
         return true;
     }
 
+
+    /**
+     * Method to draw a card from the left deck and discard a card to the right deck atomically.
+     */
     public synchronized void drawAndDiscard() {
         Random random = new Random();
         Card removedCard;
@@ -63,6 +101,9 @@ public class Player extends Thread {
 
     }
 
+    /**
+     * Method to take a turn in the game.
+     */
     public void takeTurn() {
         if(this.rightDeck.getAllCards().size()<5 && this.leftDeck.getAllCards().size()>3){
             drawAndDiscard();
@@ -72,6 +113,7 @@ public class Player extends Thread {
 
 
     }
+
 
     public void run() {
 

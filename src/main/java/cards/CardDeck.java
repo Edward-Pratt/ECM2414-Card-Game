@@ -83,6 +83,12 @@ public class CardDeck {
         return this.deckNumber;
     }
 
+    /**
+     * Helper to write deck contents to file at end of game
+     *
+     * @param s  the file name
+     * @param s1 the content to write to the file
+     */
     public void writeFile(String s, String s1) {
         FileEditor fileEditor = new FileEditor();
         fileEditor.createFile(s);

@@ -17,26 +17,38 @@ public class CardGame{
     }
 
     public static void main(String[] args) {
-        try{
-            Scanner commandReader = new Scanner(System.in);
-            System.out.println("Welcome to the card game! Please enter the number of players: ");
-            int numPlayers = commandReader.nextInt();
-            System.out.println("Please enter the directory of your pack file: ");
-            String packFile = commandReader.next();
-            System.out.println(("You are playing with "+ numPlayers+ " players and the pack file"+ packFile));
-            PackofCards = Pack.readPack(packFile, numPlayers);
-            setupGame(numPlayers);
-            playGame();
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+        int numPlayers;
+        String packFile;
+        while (true) {
+            try {
+                Scanner commandReader = new Scanner(System.in);
+                System.out.println("Welcome to the card game! Please enter the number of players: ");
+                numPlayers = commandReader.nextInt();
+                System.out.println("Please enter the directory of your pack file: ");
+                packFile = commandReader.next();
 
+                PackofCards = Pack.readPack(packFile, numPlayers);
+
+            } catch (RuntimeException e) {
+                {
+                    System.out.println("Invalid Number of Players or Deck. Please try again.");
+                    continue;
+                }
+            }
+            break;
+
+        }
+        System.out.println(("You are playing with " + numPlayers + " players and the pack file" + packFile));
+        setupGame(numPlayers);
+        playGame();
     }
+
+
 
     public static void setupGame(int numPlayers){
         CardDeck[] decks = new CardDeck[numPlayers];
         for (int i = 0; i < numPlayers; i++){
-            decks[i] = new CardDeck(i+1);
+            decks[i] = new CardDeck(i);
         }
         for (int i = 0; i < numPlayers; i++){
             CardDeck leftDeck = decks[((i-1) + numPlayers) % numPlayers];
@@ -64,7 +76,6 @@ public class CardGame{
             if(player.hasWon()){
                 System.out.println("Player " + player.getPlayerNumber() + " has won the game!");
                 gameWon = true;
-
             }
         }
         if(!gameWon){

@@ -92,6 +92,8 @@ public class testPlayer {
     @Test
     @DisplayName("Players write to File")
     void playerFileWrite() {
-
+        FileEditor fe = new FileEditor();
+        String[] playerFileContents = fe.readFile("player"+this.playerNumber+"_output.txt");
+        Assertions.assertFalse(playerFileContents == null);
     }
 }

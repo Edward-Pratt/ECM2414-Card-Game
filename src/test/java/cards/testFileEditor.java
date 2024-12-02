@@ -6,6 +6,12 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+/**
+ * The test class for the FileEditor class. This class test all the methods
+ * within the FileEditor.
+ * This is to confirm that all the methods that create files and read/write
+ * from files work as intended.
+ */
 public class testFileEditor {
 
     @Test

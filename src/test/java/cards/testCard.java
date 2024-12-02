@@ -1,10 +1,14 @@
 package cards;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Assertions;
 
+/**
+ * The test class for the Card class. This class tests all the methods within
+ * the Card class.
+ */
 public class testCard {
 
     int testCardNumber;

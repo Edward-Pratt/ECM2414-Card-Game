@@ -5,6 +5,14 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+/**
+ * The test class for the Player class. This class tests all the methods
+ * within the Player class.
+ * This class checks if player can be assigned an identity and add/remove
+ * cards from their deck. It also checks if the player class can do make
+ * a valid turn by taking a card from their left and placing a card on their
+ * right.
+ */
 public class testPlayer {
 
     Player player;
@@ -13,6 +21,11 @@ public class testPlayer {
     CardDeck testRightDeck;
     Card[] cards;
 
+    /**
+     * Custom setup for the JUnit Jupiter tests.
+     * This method sets up the test player's number as well as creating
+     * their supposed "left deck" and "right deck"
+     */
     @BeforeEach
     @DisplayName("Generating Player")
     void generatePlayer(){
@@ -22,7 +35,7 @@ public class testPlayer {
     }
 
     @Test
-    @DisplayName("Player Number ")
+    @DisplayName("Player Number")
     void testPlayerNumber() {
         int testPlayerNumber = (int) (Math.round(Math.random() * 100));
         this.player = new Player(testPlayerNumber, this.testLeftDeck, this.testRightDeck);

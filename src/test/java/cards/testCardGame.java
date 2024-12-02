@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-class CardGameTest {
+class testCardGame {
 
     @BeforeEach
     @DisplayName("Set up Game")

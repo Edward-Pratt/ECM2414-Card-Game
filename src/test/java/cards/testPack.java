@@ -10,7 +10,13 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-
+/**
+ * The test class for the Pack class. This class tests all the methods within
+ * the Pack class.
+ * The class aims to confirm that the abstract Pack class can read from the Pack
+ * file and be able to validate whether a class has the suitable amount of cards
+ * of 8n.
+ */
 public class testPack {
     
     File packFileName;

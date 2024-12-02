@@ -4,7 +4,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-
+/**
+ * The test class for the CardDeck class. This class tests all the methods within
+ * the CardDeck class.
+ */
 public class testCardDeck {
 
     @Test

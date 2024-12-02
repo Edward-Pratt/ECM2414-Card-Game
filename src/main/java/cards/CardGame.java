@@ -36,6 +36,10 @@ public class CardGame{
         gameWon = won;
     }
 
+    /**
+     * 
+     * @param args
+     */
     public static void main(String[] args) {
         int numPlayers;
         String packFile;
@@ -63,8 +67,10 @@ public class CardGame{
         playGame();
     }
 
-
-
+    /**
+     * 
+     * @param numPlayers
+     */
     private static void setupGame(int numPlayers){
         CardDeck[] decks = new CardDeck[numPlayers];
         for (int i = 0; i < numPlayers; i++){
@@ -87,11 +93,11 @@ public class CardGame{
                 decks[k].addCard(PackofCards.remove());
             }
         }
-
-
-
     }
 
+    /**
+     * 
+     */
     private static void playGame() {
         for (Player player: players){
             if(player.hasWon()){

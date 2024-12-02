@@ -76,6 +76,22 @@ public class testPlayer {
     @Test
     @DisplayName("Players Turn")
     void playerTakesTurn() {
+        CardDeck tempLeftDeck = new CardDeck(playerNumber);
+        CardDeck tempRightDeck = new CardDeck(2);
+        for (int i = 0; i < 10; i++) {
+            Card card1 = new Card((int) Math.round(Math.random()*100));
+            Card card2 = new Card((int) Math.round(Math.random()*100));
+            tempLeftDeck.addCard(card1);
+            tempRightDeck.addCard(card2);
+        }
+        this.player = new Player(this.playerNumber, tempLeftDeck, tempRightDeck);
+        this.player.takeTurn();
+        Assertions.assertEquals(4, this.player.getAllCards().length);
+    }
+
+    @Test
+    @DisplayName("Players write to File")
+    void playerFileWrite() {
 
     }
 }

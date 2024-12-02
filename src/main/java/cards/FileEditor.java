@@ -36,11 +36,7 @@ public class FileEditor {
             if(myObj.exists()){
                 myObj.delete();
             }
-            if (myObj.createNewFile()) {
-                System.out.println("File created: " + myObj.getName());
-            } else {
-                System.out.println("File already exists.");
-            }
+            myObj.createNewFile();
         } catch (IOException e) {
             System.out.println("An error occured.");
             e.printStackTrace();

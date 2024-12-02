@@ -8,7 +8,7 @@ import java.util.Random;
  * This class has a run method for threading, and methods for adding and getting cards, 
  * checking if the player has won, and allowing them to interact with decks.
  *
- * @author Edward Pratt and Alexander Hay
+ * @author Edward Pratt & Alexander Hay
  * @version 1.0
  */
 public class Player extends Thread {

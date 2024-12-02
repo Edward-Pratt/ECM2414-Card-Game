@@ -11,10 +11,9 @@ import java.util.Queue;
  * are playing the card game.
  * </p>
  * 
- * @author Edward Pratt and Alexander Hay
+ * @author Edward Pratt & Alexander Hay
  * @version 1.0
  */
-
 public class CardDeck {
     private final int deckNumber;
     private final Queue<Card> deckOfCards = new LinkedList<>();

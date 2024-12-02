@@ -36,10 +36,6 @@ public class CardGame{
         gameWon = won;
     }
 
-    /**
-     * 
-     * @param args
-     */
     public static void main(String[] args) {
         int numPlayers;
         String packFile;
@@ -98,6 +94,9 @@ public class CardGame{
                 decks[k].addCard(PackofCards.remove());
             }
         }
+
+
+
     }
 
     static void playGame() {

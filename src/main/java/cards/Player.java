@@ -121,7 +121,6 @@ public class Player extends Thread {
         while (!CardGame.isGameWon() && !Thread.interrupted()) {
             synchronized (this) {
                 if (hasWon()) {
-                    System.out.printf("Player %d has won the game!%n", this.playerNumber);
                     CardGame.setGameWon(true);
 
                 } else {
@@ -136,6 +135,7 @@ public class Player extends Thread {
         );
 
 
-
+        fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + "exits");
+        fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + " final hand" + this.cards[0].getValue() + ", " + this.cards[1].getValue() + ", " + this.cards[2].getValue() + ", " + this.cards[3].getValue());
         rightDeck.writeFile("Deck" + rightDeck.getDeckNumber() + "_output.txt", "Deck:" + rightDeck.getDeckNumber() + " has these cards:" + deckContents);
     }}

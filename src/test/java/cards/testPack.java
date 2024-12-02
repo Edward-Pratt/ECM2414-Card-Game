@@ -10,12 +10,27 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-
+/**
+ * The test class for the Pack class. This class tests all the methods within
+ * the Pack class.
+ * The class aims to confirm that the abstract Pack class can read from the Pack
+ * file and be able to validate whether a class has the suitable amount of cards
+ * of 8n.
+ * 
+ * @author Edward Pratt and Sandy Hay
+ * @version 1.0
+ */
 public class testPack {
     
     File packFileName;
     Queue<Card> cardsPack;
 
+    /**
+     * Custom setup for JUnit Jupiter test
+     * This method creates a file for the test pack and adds random cards 
+     * to the test pack, allow Pack class to read off the contents 
+     * from the file
+     */
     @BeforeEach
     @DisplayName("Generate Pack File")
     void generatePack(){

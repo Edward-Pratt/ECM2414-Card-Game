@@ -87,9 +87,9 @@ public class Player extends Thread {
         return true;
     }
 
-
     /**
-     * Method to draw a card from the left deck and discard a card to the right deck atomically.
+     * Method to draw a card from the left deck and discard a card 
+     * to the right deck atomically.
      */
     public synchronized void drawAndDiscard() {
         Random random = new Random();
@@ -103,8 +103,6 @@ public class Player extends Thread {
         fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + " discards " + this.cards[randomNumber].getValue());
         this.cards[randomNumber] = leftDeck.removeCard();
         fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + " draws " + this.cards[randomNumber].getValue());
-
-
     }
 
     /**
@@ -115,12 +113,17 @@ public class Player extends Thread {
             drawAndDiscard();
             fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + " hand: " + this.cards[0].getValue() + ", " + this.cards[1].getValue() + ", " + this.cards[2].getValue() + ", " + this.cards[3].getValue());
         }
-
-
-
     }
 
-
+    /**
+     * Method that operates the main functionality for the player,
+     * checking if the game has been won while synchronously maintaining
+     * the threads of the players'
+     * <p>
+     * It also maintains each players turn of taking and discard a card
+     * and logging the data to the player's respective file.
+     * </p>
+     */
     public void run() {
 
         fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + " initial hand: " + this.cards[0].getValue() + ", " + this.cards[1].getValue() + ", " + this.cards[2].getValue() + ", " + this.cards[3].getValue());
@@ -140,8 +143,8 @@ public class Player extends Thread {
                         .toList()
         );
 
-
         fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + "exits");
         fileEditor.writeFile("Player" + this.playerNumber + "_output.txt", "Player " + this.playerNumber + " final hand" + this.cards[0].getValue() + ", " + this.cards[1].getValue() + ", " + this.cards[2].getValue() + ", " + this.cards[3].getValue());
         rightDeck.writeFile("Deck" + rightDeck.getDeckNumber() + "_output.txt", "Deck:" + rightDeck.getDeckNumber() + " has these cards:" + deckContents);
-    }}
+    }
+}

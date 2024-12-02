@@ -4,7 +4,15 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-
+/**
+ * The test class for the CardDeck class. This class tests all the methods within
+ * the CardDeck class.
+ * This class checks if the deck can be set an identifier, add cards to the deck
+ * and retrieve all the cards within the deck.
+ * 
+ * @author Edward Pratt and Sandy hay
+ * @version 1.0
+ */
 public class testCardDeck {
 
     @Test

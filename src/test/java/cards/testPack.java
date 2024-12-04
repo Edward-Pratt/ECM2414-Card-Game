@@ -52,7 +52,7 @@ public class testPack {
         Queue<Card> fileCards = Pack.readPack(packFileName.getName(), 3);
         ArrayList<Integer> testPackContents = new ArrayList<>();
         ArrayList<Integer> filePackContents = new ArrayList<>();
-        Queue<Card> testPack = new LinkedList<>(fileCards);
+        Queue<Card> testPack = new LinkedList<>(cardsPack);
         for (int i=0; i<24; i++) {
             testPackContents.add(testPack.remove().getValue());
             filePackContents.add(fileCards.remove().getValue());

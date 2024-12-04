@@ -52,7 +52,7 @@ class testCardGame {
     @DisplayName("Checks that players are given 4 cards each when game is setup.")
     void testSetupGame() {
         Queue<Card> mockPack = new ArrayDeque<>();
-        for (int i = 1; i <= 52; i++) {
+        for (int i = 1; i <= 32; i++) {
             mockPack.add(new Card(i));
         }
         CardGame.PackofCards = mockPack;

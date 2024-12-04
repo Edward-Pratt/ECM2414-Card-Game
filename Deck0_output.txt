@@ -1,1 +1,0 @@
-Deck:0 has these cards:[2, 2, 2]

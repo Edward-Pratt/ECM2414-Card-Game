@@ -4,25 +4,21 @@ The premise of this project is to simulate a card game in which players draw and
 have 4 cards of the same value.
 
 ## Running the game from the jar file
-To run the game from the jar file, navigate to the directory containing the jar file and run the following command:
 
+1. Open a Command Prompt window and navigate to the directory containing cards.jar file.<br>
+2. If you are using Powershell, run the command ```cmd``` to switch to Command Prompt.<br>
+3. Run the following command:
 ```cmd
 java -jar cards.jar
 ```
-
-This will start the game and prompt you to enter the number of players you want to simulate.
-<br>
-After this it will ask for the file location of a pack file. It checks that the pack has a number of cards(lines) 
-equal to 8n where n is the number of players.
-<br>
-If this is true, the game will start and when it finished the number of the player that has won will be printed to 
-the command line. A set of files will also be created in the directory containing information about the players choices.
-
-
+4. Type the number of players you want to play with and press Enter. (To use test pack type 4)<br>
+5. Type the directory of the file containing the pack of cards you want to use and press Enter. (To use test pack type 
+   4players.txt)<br>
+6. The game will start and when it finishes, the winner will be displayed and files will be written to your directory.
 ## Running the test suite
-To run the test suite, navigate to the root folder of the project in CMD
-and run the following command:
-
+1. Open a Command Prompt window and navigate to the directory containing cards.jar file.<br>
+2. Run the following command:
 ```cmd
-java -jar .\tests\lib\junit-platform-console-standalone-1.11.3.jar -cp .;cards-1.0.jar;tests --select-class cards.testCardGameSuite
+java -jar .\tests\lib\junit-platform-console-standalone-1.11.3.jar -cp .;cards.jar;tests --select-class cards.testCardGameSuite
 ```
+3. The test suite will run and the results will be displayed in the Command Prompt window.

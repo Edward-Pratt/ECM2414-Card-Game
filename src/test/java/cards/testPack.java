@@ -52,7 +52,7 @@ public class testPack {
         Queue<Card> fileCards = Pack.readPack(packFileName.getName(), 3);
         ArrayList<Integer> testPackContents = new ArrayList<>();
         ArrayList<Integer> filePackContents = new ArrayList<>();
-        Queue<Card> testPack = new LinkedList<>(fileCards);
+        Queue<Card> testPack = new LinkedList<>(cardsPack);
         for (int i=0; i<24; i++) {
             testPackContents.add(testPack.remove().getValue());
             filePackContents.add(fileCards.remove().getValue());
@@ -75,7 +75,7 @@ public class testPack {
              testPack2.add(testCard);
          }
 
-        Assertions.assertEquals(true, Pack.validatePack(1, testPack1), "The size of this pack is a multiple of 8.");
-        Assertions.assertEquals(false, Pack.validatePack(2, testPack2), "The size of this pack is not a multiple of 8.");
+        Assertions.assertEquals(true, Pack.validatePack(1, testPack1), "The size of this pack should be a multiple of 8.");
+        Assertions.assertEquals(false, Pack.validatePack(2, testPack2), "The size of this pack should not be a multiple of 8.");
     }
 }

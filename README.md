@@ -8,9 +8,9 @@ have 4 cards of the same value.
 1. Open a Command Prompt window and navigate to the directory containing cards.jar file.<br>
 2. If you are using Powershell, run the command ```cmd``` to switch to Command Prompt.<br>
 3. Run the following command:<br>
-``cmd
+```cmd
 java -jar cards.jar
-``
+```
 4. Type the number of players you want to play with and press Enter. (To use test pack type 4)<br>
 5. Type the directory of the file containing the pack of cards you want to use and press Enter. (To use test pack type 
    4players.txt)<br>
@@ -19,6 +19,6 @@ java -jar cards.jar
 1. Open a Command Prompt window and navigate to the directory containing cards.jar file.<br>
 2. Run the following command:<br>
 ```cmd
-java -jar .\tests\lib\junit-platform-console-standalone-1.11.3.jar -cp .;cards.jar;tests --select-class cards.testCardGameSuite
+java -jar .\cardsTest\lib\junit-platform-console-standalone-1.11.3.jar -cp .;cards.jar;cardsTest --select-class cards.testCardGameSuite
 ```
 3. The test suite will run and the results will be displayed in the Command Prompt window.

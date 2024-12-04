@@ -20,4 +20,9 @@ the command line. A set of files will also be created in the directory containin
 
 
 ## Running the test suite
-To run the test suite, navigate to the root folder of the project
+To run the test suite, navigate to the root folder of the project in CMD
+and run the following command:
+
+```cmd
+java -jar .\tests\lib\junit-platform-console-standalone-1.11.3.jar -cp .;cards-1.0.jar;tests --select-class cards.testCardGameSuite
+```

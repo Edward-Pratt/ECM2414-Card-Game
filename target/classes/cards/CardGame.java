@@ -65,7 +65,7 @@ public class CardGame{
                 PackofCards = Pack.readPack(packFile, numPlayers);
             } catch (RuntimeException e) {
                 {
-                    System.out.println("Invalid Number of Players or Deck. Please try again.");
+                    System.out.println("Invalid Number of Players or Pack. Please try again.");
                     continue;
                 }
             }
